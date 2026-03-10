@@ -8,7 +8,7 @@ namespace UI.Template.Tests;
 public class TC4bug : BaseTest
 {
     [Test]
-    public void AddProductToAdminTest()
+    public void CheckoutFlowTest()
     {
         //** STEP 1 **/
         HomePage homePage = new HomePage();

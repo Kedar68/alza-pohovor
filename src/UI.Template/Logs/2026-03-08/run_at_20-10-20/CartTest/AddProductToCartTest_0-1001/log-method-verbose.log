@@ -1,8 +1,0 @@
-[2026-03-08 20:10:20.654] [INF] [LogFactory.InitializeLogger] ####################################################################################################
-[2026-03-08 20:10:20.656] [INF] [BaseTest.BaseSetUp] EXECUTE TEST "UI.Template.Tests.CartTest.AddProductToCartTest"
-[2026-03-08 20:10:20.673] [INF] [BaseTest.LogTestProperties] Test Properties: {
-  LevelOfParallelism: 1
-  ParallelScope: Fixtures
-}
-[2026-03-08 20:10:20.674] [INF] [BaseTest.BaseSetUp] TEST START
-[2026-03-08 20:10:20.675] [INF] [WebDriverFactory.InitializeWebDriver] Initializing a WebDriver session

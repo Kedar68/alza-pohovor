@@ -1,8 +1,0 @@
-[2026-03-08 20:11:27.351] [INF] ####################################################################################################
-[2026-03-08 20:11:27.352] [INF] EXECUTE TEST "UI.Template.Tests.CartTest.AddProductToCartTest"
-[2026-03-08 20:11:27.362] [INF] Test Properties: {
-  LevelOfParallelism: 1
-  ParallelScope: Fixtures
-}
-[2026-03-08 20:11:27.362] [INF] TEST START
-[2026-03-08 20:11:27.364] [INF] Initializing a WebDriver session

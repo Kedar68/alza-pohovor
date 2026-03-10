@@ -1,0 +1,195 @@
+[2026-03-11 09:45:19.538] [INF] [LogFactory.InitializeLogger] ####################################################################################################
+[2026-03-11 09:45:19.539] [INF] [BaseTest.BaseSetUp] EXECUTE TEST "UI.Template.Tests.ProductParametersTest.CheckProductParametersTest"
+[2026-03-11 09:45:19.557] [INF] [BaseTest.LogTestProperties] Test Properties: {
+  LevelOfParallelism: 1
+  ParallelScope: Fixtures
+}
+[2026-03-11 09:45:19.561] [INF] [BaseTest.BaseSetUp] TEST START
+[2026-03-11 09:45:19.564] [INF] [WebDriverFactory.InitializeWebDriver] Initializing a WebDriver session
+[2026-03-11 09:45:26.105] [VRB] [WebDriverFactory.InitializeWebDriver] New created WebDriver session is 'c2490054530b9d850c73c1192682d747'
+[2026-03-11 09:45:26.112] [VRB] [BasePage.Open] Opening page https://eshop-demo-766125429055.europe-central2.run.app/ with user authorization.
+[2026-03-11 09:45:30.715] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-11 09:45:30.730] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-11 09:45:30.746] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //li[@class='active']'.
+[2026-03-11 09:45:30.797] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: //li[@class='active']' is 'All'.
+[2026-03-11 09:45:30.809] [INF] [WebDriverWaitExtensions.TryWaitWithCondition] Waiting for the method '<GetProductCards>b__0' to be true.
+[2026-03-11 09:45:30.814] [VRB] [WebDriverWaitExtensions.GetCustomWait] Initialize custom wait with timeout '5(s)' and interval '500(ms)'
+[2026-03-11 09:45:30.831] [INF] [WebDriverWaitExtensions.TryWaitWithCondition] Condition '<GetProductCards>b__0' is fulfilled
+[2026-03-11 09:45:30.843] [VRB] [BaseComponent.ScrollTo] Scrolling to 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-11 09:45:30.844] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<ScrollTo>b__55_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-11 09:45:30.858] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<ScrollTo>b__55_1' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-11 09:45:30.874] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-11 09:45:30.874] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-11 09:45:30.899] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-11 09:45:30.922] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//a[@class='product-link']//h3'.
+[2026-03-11 09:45:30.954] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//a[@class='product-link']//h3' is 'Premium Headphones'.
+[2026-03-11 09:45:30.955] [VRB] [BaseComponent.ScrollTo] Scrolling to 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[2]'.
+[2026-03-11 09:45:30.955] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<ScrollTo>b__55_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[2]'.
+[2026-03-11 09:45:30.969] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<ScrollTo>b__55_1' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[2]'.
+[2026-03-11 09:45:30.982] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-11 09:45:30.983] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[2]'.
+[2026-03-11 09:45:31.002] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[2]'.
+[2026-03-11 09:45:31.036] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[2]//a[@class='product-link']//h3'.
+[2026-03-11 09:45:31.085] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[2]//a[@class='product-link']//h3' is 'Wireless Mouse'.
+[2026-03-11 09:45:31.085] [VRB] [BaseComponent.ScrollTo] Scrolling to 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[3]'.
+[2026-03-11 09:45:31.086] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<ScrollTo>b__55_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[3]'.
+[2026-03-11 09:45:31.101] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<ScrollTo>b__55_1' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[3]'.
+[2026-03-11 09:45:31.116] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-11 09:45:31.117] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[3]'.
+[2026-03-11 09:45:31.140] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[3]'.
+[2026-03-11 09:45:31.158] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[3]//a[@class='product-link']//h3'.
+[2026-03-11 09:45:31.191] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[3]//a[@class='product-link']//h3' is '4K LED Monitor'.
+[2026-03-11 09:45:31.191] [VRB] [BaseComponent.ScrollTo] Scrolling to 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[4]'.
+[2026-03-11 09:45:31.192] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<ScrollTo>b__55_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[4]'.
+[2026-03-11 09:45:31.205] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<ScrollTo>b__55_1' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[4]'.
+[2026-03-11 09:45:31.217] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-11 09:45:31.218] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[4]'.
+[2026-03-11 09:45:31.236] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[4]'.
+[2026-03-11 09:45:31.254] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[4]//a[@class='product-link']//h3'.
+[2026-03-11 09:45:31.288] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[4]//a[@class='product-link']//h3' is 'Hard Disk 2TB'.
+[2026-03-11 09:45:31.288] [VRB] [BaseComponent.ScrollTo] Scrolling to 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[5]'.
+[2026-03-11 09:45:31.288] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<ScrollTo>b__55_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[5]'.
+[2026-03-11 09:45:31.303] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<ScrollTo>b__55_1' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[5]'.
+[2026-03-11 09:45:31.327] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-11 09:45:31.327] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[5]'.
+[2026-03-11 09:45:31.368] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[5]'.
+[2026-03-11 09:45:31.417] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[5]//a[@class='product-link']//h3'.
+[2026-03-11 09:45:31.450] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[5]//a[@class='product-link']//h3' is 'Smart Fitness Band'.
+[2026-03-11 09:45:31.450] [VRB] [BaseComponent.ScrollTo] Scrolling to 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[6]'.
+[2026-03-11 09:45:31.450] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<ScrollTo>b__55_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[6]'.
+[2026-03-11 09:45:31.464] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<ScrollTo>b__55_1' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[6]'.
+[2026-03-11 09:45:31.478] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-11 09:45:31.479] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[6]'.
+[2026-03-11 09:45:31.497] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[6]'.
+[2026-03-11 09:45:31.514] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[6]//a[@class='product-link']//h3'.
+[2026-03-11 09:45:31.545] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[6]//a[@class='product-link']//h3' is 'RC Drone Mini'.
+[2026-03-11 09:45:31.546] [VRB] [BaseComponent.ScrollTo] Scrolling to 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[7]'.
+[2026-03-11 09:45:31.546] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<ScrollTo>b__55_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[7]'.
+[2026-03-11 09:45:31.559] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<ScrollTo>b__55_1' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[7]'.
+[2026-03-11 09:45:31.593] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-11 09:45:31.594] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[7]'.
+[2026-03-11 09:45:31.620] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[7]'.
+[2026-03-11 09:45:31.651] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[7]//a[@class='product-link']//h3'.
+[2026-03-11 09:45:31.689] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[7]//a[@class='product-link']//h3' is 'Smart LED Light Bulb'.
+[2026-03-11 09:45:31.690] [VRB] [BaseComponent.ScrollTo] Scrolling to 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[8]'.
+[2026-03-11 09:45:31.690] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<ScrollTo>b__55_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[8]'.
+[2026-03-11 09:45:31.704] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<ScrollTo>b__55_1' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[8]'.
+[2026-03-11 09:45:31.715] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-11 09:45:31.716] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[8]'.
+[2026-03-11 09:45:31.750] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[8]'.
+[2026-03-11 09:45:31.770] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[8]//a[@class='product-link']//h3'.
+[2026-03-11 09:45:31.814] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[8]//a[@class='product-link']//h3' is 'Bluetooth Speaker'.
+[2026-03-11 09:45:31.816] [VRB] [BaseComponent.ScrollTo] Scrolling to 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[9]'.
+[2026-03-11 09:45:31.816] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<ScrollTo>b__55_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[9]'.
+[2026-03-11 09:45:31.829] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<ScrollTo>b__55_1' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[9]'.
+[2026-03-11 09:45:31.849] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-11 09:45:31.849] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[9]'.
+[2026-03-11 09:45:31.868] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[9]'.
+[2026-03-11 09:45:31.887] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[9]//a[@class='product-link']//h3'.
+[2026-03-11 09:45:31.919] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[9]//a[@class='product-link']//h3' is 'Smartphone G12'.
+[2026-03-11 09:45:31.919] [VRB] [BaseComponent.ScrollTo] Scrolling to 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[10]'.
+[2026-03-11 09:45:31.919] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<ScrollTo>b__55_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[10]'.
+[2026-03-11 09:45:31.934] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<ScrollTo>b__55_1' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[10]'.
+[2026-03-11 09:45:31.951] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-11 09:45:31.951] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[10]'.
+[2026-03-11 09:45:31.971] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[10]'.
+[2026-03-11 09:45:31.993] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[10]//a[@class='product-link']//h3'.
+[2026-03-11 09:45:32.042] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[10]//a[@class='product-link']//h3' is 'DSLR Camera X200'.
+[2026-03-11 09:45:32.042] [VRB] [BaseComponent.ScrollTo] Scrolling to 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[11]'.
+[2026-03-11 09:45:32.043] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<ScrollTo>b__55_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[11]'.
+[2026-03-11 09:45:32.057] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<ScrollTo>b__55_1' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[11]'.
+[2026-03-11 09:45:32.071] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-11 09:45:32.071] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[11]'.
+[2026-03-11 09:45:32.093] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[11]'.
+[2026-03-11 09:45:32.120] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[11]//a[@class='product-link']//h3'.
+[2026-03-11 09:45:32.156] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[11]//a[@class='product-link']//h3' is 'Gaming Keyboard RGB'.
+[2026-03-11 09:45:32.157] [VRB] [BaseComponent.ScrollTo] Scrolling to 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[12]'.
+[2026-03-11 09:45:32.157] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<ScrollTo>b__55_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[12]'.
+[2026-03-11 09:45:32.169] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<ScrollTo>b__55_1' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[12]'.
+[2026-03-11 09:45:32.183] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-11 09:45:32.184] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[12]'.
+[2026-03-11 09:45:32.203] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[12]'.
+[2026-03-11 09:45:32.234] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[12]//a[@class='product-link']//h3'.
+[2026-03-11 09:45:32.279] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[12]//a[@class='product-link']//h3' is 'Wireless Earbuds S1'.
+[2026-03-11 09:45:32.280] [VRB] [BaseComponent.ScrollTo] Scrolling to 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[13]'.
+[2026-03-11 09:45:32.280] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<ScrollTo>b__55_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[13]'.
+[2026-03-11 09:45:32.292] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<ScrollTo>b__55_1' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[13]'.
+[2026-03-11 09:45:32.304] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-11 09:45:32.304] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[13]'.
+[2026-03-11 09:45:32.320] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[13]'.
+[2026-03-11 09:45:32.336] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[13]//a[@class='product-link']//h3'.
+[2026-03-11 09:45:32.364] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[13]//a[@class='product-link']//h3' is 'Kids Robot Toy'.
+[2026-03-11 09:45:32.365] [VRB] [BaseComponent.ScrollTo] Scrolling to 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[14]'.
+[2026-03-11 09:45:32.365] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<ScrollTo>b__55_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[14]'.
+[2026-03-11 09:45:32.376] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<ScrollTo>b__55_1' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[14]'.
+[2026-03-11 09:45:32.388] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-11 09:45:32.388] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[14]'.
+[2026-03-11 09:45:32.403] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[14]'.
+[2026-03-11 09:45:32.419] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[14]//a[@class='product-link']//h3'.
+[2026-03-11 09:45:32.446] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[14]//a[@class='product-link']//h3' is 'Smart Thermostat'.
+[2026-03-11 09:45:32.446] [VRB] [BaseComponent.ScrollTo] Scrolling to 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[15]'.
+[2026-03-11 09:45:32.446] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<ScrollTo>b__55_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[15]'.
+[2026-03-11 09:45:32.457] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<ScrollTo>b__55_1' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[15]'.
+[2026-03-11 09:45:32.468] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-11 09:45:32.468] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[15]'.
+[2026-03-11 09:45:32.510] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[15]'.
+[2026-03-11 09:45:32.526] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[15]//a[@class='product-link']//h3'.
+[2026-03-11 09:45:32.553] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[15]//a[@class='product-link']//h3' is 'Wireless Charger Pad'.
+[2026-03-11 09:45:32.558] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-11 09:45:32.559] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[2]'.
+[2026-03-11 09:45:32.574] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[2]'.
+[2026-03-11 09:45:32.591] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[2]//a[@class='product-link']//h3'.
+[2026-03-11 09:45:32.614] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[2]//a[@class='product-link']//h3' is 'Wireless Mouse'.
+[2026-03-11 09:45:32.615] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[2]//a[@class='product-link']//p[@class='price']'.
+[2026-03-11 09:45:32.655] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[2]//a[@class='product-link']//p[@class='price']' is '30.00,-'.
+[2026-03-11 09:45:32.670] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[2]//a[@class='product-link']//p[contains(@class, 'stock-status')]'.
+[2026-03-11 09:45:32.697] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[2]//a[@class='product-link']//p[contains(@class, 'stock-status')]' is 'In stock: 50'.
+[2026-03-11 09:45:32.710] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsClicked>b__60_0' on 'Simple' with locator 'By.XPath: //li[contains (text(),'Accessories')]'.
+[2026-03-11 09:45:32.728] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsClicked>b__60_1' on 'Simple' with locator 'By.XPath: //li[contains (text(),'Accessories')]'.
+[2026-03-11 09:45:32.792] [INF] [WebDriverWaitExtensions.TryWaitWithCondition] Waiting for the method '<IsDisplayed>b__4_0' to be true.
+[2026-03-11 09:45:32.792] [VRB] [WebDriverWaitExtensions.GetCustomWait] Initialize custom wait with timeout '5(s)' and interval '500(ms)'
+[2026-03-11 09:45:32.794] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CategoryContainer' with locator 'By.XPath: //*[@class='categories-sidebar']'.
+[2026-03-11 09:45:32.816] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'Simple' with locator 'By.XPath: //ul[@class='category-list']'.
+[2026-03-11 09:45:32.846] [INF] [WebDriverWaitExtensions.TryWaitWithCondition] Condition '<IsDisplayed>b__4_0' is fulfilled
+[2026-03-11 09:45:32.846] [INF] [WebDriverWaitExtensions.TryWaitWithCondition] Waiting for the method '<GetProductCards>b__0' to be true.
+[2026-03-11 09:45:32.846] [VRB] [WebDriverWaitExtensions.GetCustomWait] Initialize custom wait with timeout '5(s)' and interval '500(ms)'
+[2026-03-11 09:45:32.855] [INF] [WebDriverWaitExtensions.TryWaitWithCondition] Condition '<GetProductCards>b__0' is fulfilled
+[2026-03-11 09:45:32.863] [VRB] [BaseComponent.ScrollTo] Scrolling to 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-11 09:45:32.863] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<ScrollTo>b__55_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-11 09:45:32.872] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<ScrollTo>b__55_1' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-11 09:45:32.893] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-11 09:45:32.893] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-11 09:45:32.910] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-11 09:45:32.939] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//a[@class='product-link']//h3'.
+[2026-03-11 09:45:32.962] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//a[@class='product-link']//h3' is 'Wireless Mouse'.
+[2026-03-11 09:45:32.962] [VRB] [BaseComponent.ScrollTo] Scrolling to 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[2]'.
+[2026-03-11 09:45:32.962] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<ScrollTo>b__55_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[2]'.
+[2026-03-11 09:45:32.970] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<ScrollTo>b__55_1' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[2]'.
+[2026-03-11 09:45:32.992] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-11 09:45:32.993] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[2]'.
+[2026-03-11 09:45:33.029] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[2]'.
+[2026-03-11 09:45:33.045] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[2]//a[@class='product-link']//h3'.
+[2026-03-11 09:45:33.084] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[2]//a[@class='product-link']//h3' is 'Gaming Keyboard RGB'.
+[2026-03-11 09:45:33.085] [VRB] [BaseComponent.ScrollTo] Scrolling to 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[3]'.
+[2026-03-11 09:45:33.085] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<ScrollTo>b__55_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[3]'.
+[2026-03-11 09:45:33.095] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<ScrollTo>b__55_1' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[3]'.
+[2026-03-11 09:45:33.107] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-11 09:45:33.108] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[3]'.
+[2026-03-11 09:45:33.122] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[3]'.
+[2026-03-11 09:45:33.139] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[3]//a[@class='product-link']//h3'.
+[2026-03-11 09:45:33.162] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[3]//a[@class='product-link']//h3' is 'Wireless Charger Pad'.
+[2026-03-11 09:45:33.162] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsClicked>b__60_0' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//a[@class='product-link']//h3'.
+[2026-03-11 09:45:33.177] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsClicked>b__60_1' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//a[@class='product-link']//h3'.
+[2026-03-11 09:45:33.349] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-11 09:45:33.368] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-11 09:45:33.370] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //div[@class='product-info']//h1[@class='product-name']'.
+[2026-03-11 09:45:33.423] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: //div[@class='product-info']//h1[@class='product-name']' is 'Wireless Mouse'.
+[2026-03-11 09:45:33.423] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //div[@class='product-info']//span[@ko-id='price-value']'.
+[2026-03-11 09:45:33.459] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: //div[@class='product-info']//span[@ko-id='price-value']' is '$ 30.00'.
+[2026-03-11 09:45:33.459] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //div[@class='product-info']//span[@ko-id='stock-value']'.
+[2026-03-11 09:45:33.521] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: //div[@class='product-info']//span[@ko-id='stock-value']' is '50'.
+[2026-03-11 09:45:33.528] [INF] [BaseTest.BaseTearDown] TEST END
+[2026-03-11 09:45:33.531] [INF] [BaseTest.BaseTearDown] Test Result: Passed
+[2026-03-11 09:45:33.534] [INF] [BaseTest.CloseDriver] Trying to quit WebDriver session 'c2490054530b9d850c73c1192682d747'
+[2026-03-11 09:45:33.961] [INF] [LogFactory.CloseLogger] Closing the logger...
+[2026-03-11 09:45:33.961] [INF] [LogFactory.CloseLogger] ####################################################################################################
