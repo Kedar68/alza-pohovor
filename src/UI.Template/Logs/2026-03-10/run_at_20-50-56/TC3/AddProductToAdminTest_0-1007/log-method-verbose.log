@@ -1,0 +1,89 @@
+[2026-03-10 20:51:35.256] [INF] [LogFactory.InitializeLogger] ####################################################################################################
+[2026-03-10 20:51:35.263] [INF] [BaseTest.BaseSetUp] EXECUTE TEST "UI.Template.Tests.TC3.AddProductToAdminTest"
+[2026-03-10 20:51:35.264] [INF] [BaseTest.LogTestProperties] Test Properties: {
+  LevelOfParallelism: 1
+  ParallelScope: Fixtures
+}
+[2026-03-10 20:51:35.265] [INF] [BaseTest.BaseSetUp] TEST START
+[2026-03-10 20:51:35.266] [INF] [WebDriverFactory.InitializeWebDriver] Initializing a WebDriver session
+[2026-03-10 20:51:36.524] [VRB] [WebDriverFactory.InitializeWebDriver] New created WebDriver session is '147f3f54620a774a678cc9d50be00164'
+[2026-03-10 20:51:36.787] [VRB] [BaseComponent.ScrollTo] Scrolling to 'Button' with locator 'By.XPath: //button[@class='add-button']'.
+[2026-03-10 20:51:36.787] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<ScrollTo>b__55_0' on 'Button' with locator 'By.XPath: //button[@class='add-button']'.
+[2026-03-10 20:51:36.799] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:51:36.815] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-10 20:51:36.816] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsClicked>b__60_0' on 'Button' with locator 'By.XPath: //button[@class='add-button']'.
+[2026-03-10 20:51:36.827] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:51:37.342] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsClicked>b__60_0' on 'Button' with locator 'By.XPath: //button[@class='add-button']'.
+[2026-03-10 20:51:37.351] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:51:37.856] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsClicked>b__60_0' on 'Button' with locator 'By.XPath: //button[@class='add-button']'.
+[2026-03-10 20:51:37.869] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:51:38.380] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsClicked>b__60_0' on 'Button' with locator 'By.XPath: //button[@class='add-button']'.
+[2026-03-10 20:51:38.388] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:51:38.896] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsClicked>b__60_0' on 'Button' with locator 'By.XPath: //button[@class='add-button']'.
+[2026-03-10 20:51:38.904] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:51:39.410] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsClicked>b__60_0' on 'Button' with locator 'By.XPath: //button[@class='add-button']'.
+[2026-03-10 20:51:39.418] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:51:39.927] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsClicked>b__60_0' on 'Button' with locator 'By.XPath: //button[@class='add-button']'.
+[2026-03-10 20:51:39.936] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:51:40.445] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsClicked>b__60_0' on 'Button' with locator 'By.XPath: //button[@class='add-button']'.
+[2026-03-10 20:51:40.446] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching WebDriverException.
+OpenQA.Selenium.WebDriverException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=145.0.7632.160)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at UI.Template.Components.BaseComponent.EvaluateElementBoolFunction(Func`2 getElementCondition, Action`1 elementAction, Boolean noElement, Boolean webDriverExc) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\BaseComponent.cs:line 670
+[2026-03-10 20:51:40.491] [INF] [BaseTest.BaseTearDown] TEST END
+[2026-03-10 20:51:40.491] [INF] [BaseTest.BaseTearDown] Test Result: Failed
+[2026-03-10 20:51:40.492] [FTL] [IWebDriverExtensions.SavePageSource] Cannot download the page source.
+OpenQA.Selenium.WebDriverException: invalid session id
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.get_PageSource()
+   at UI.Template.Framework.Extensions.IWebDriverExtensions.SavePageSource(IWebDriver webDriver, String optionalFileNameSuffix) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Framework\Extensions\IWebDriverExtensions.cs:line 255
+[2026-03-10 20:51:40.496] [ERR] [IWebDriverExtensions.GetLogs] Cannot get logs for the log type 'browser'
+
+[2026-03-10 20:51:40.496] [ERR] [IWebDriverExtensions.GetLogs] Message type: error; message content: invalid session id
+[2026-03-10 20:51:40.496] [ERR] [IWebDriverExtensions.GetLogs] Message type: message; message content: invalid session id
+[2026-03-10 20:51:40.496] [ERR] [IWebDriverExtensions.GetLogs] Message type: stacktrace; message content: Symbols not available. Dumping unresolved backtrace:
+	0x7ff733a3aa55
+	0x7ff733798630
+	0x7ff73352d546
+	0x7ff733578113
+	0x7ff7335b18e2
+	0x7ff7335abb11
+	0x7ff7335aadc3
+	0x7ff7334f6505
+	0x7ff733a67810
+	0x7ff733a61afd
+	0x7ff733a82c1a
+	0x7ff7337b3345
+	0x7ff7337bb81c
+	0x7ff7334f536a
+	0x7ff733bc2b08
+	0x7fff8656e8d7
+	0x7fff876ac40c
+
+[2026-03-10 20:51:40.496] [WRN] [Utils.SaveAsFile] There is no content available and it won't be stored
+[2026-03-10 20:51:40.497] [INF] [BaseTest.CloseDriver] Trying to quit WebDriver session '147f3f54620a774a678cc9d50be00164'
+[2026-03-10 20:51:40.509] [ERR] [BaseTest.BaseTearDown] Error Message:
+OpenQA.Selenium.WebDriverException : invalid session id
+[2026-03-10 20:51:40.509] [ERR] [BaseTest.BaseTearDown] Stack Trace:
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.get_Url()
+   at UI.Template.Globals.WaitForReady() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Globals.cs:line 159
+   at UI.Template.Framework.Extensions.IWebDriverExtensions.WaitForReady(IWebDriver _) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Framework\Extensions\IWebDriverExtensions.cs:line 58
+   at UI.Template.Components.BaseComponent.WaitForReady() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\BaseComponent.cs:line 645
+   at UI.Template.Components.Basic.Button.Click() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\Basic\Button.cs:line 23
+   at UI.Template.Components.BaseComponent.ScrollToAndClick() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\BaseComponent.cs:line 464
+   at UI.Template.Pages.AdminPage.OpenAddNewProductContainer() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Pages\AdminPage.cs:line 33
+   at UI.Template.Tests.TC3.AddProductToAdminTest() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\TC3.cs:line 17
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+[2026-03-10 20:51:40.510] [INF] [LogFactory.CloseLogger] Closing the logger...
+[2026-03-10 20:51:40.510] [INF] [LogFactory.CloseLogger] ####################################################################################################

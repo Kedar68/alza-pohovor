@@ -1,0 +1,9 @@
+[2026-03-10 11:38:40.570] [ERR] Error Message:
+  The name of product in the basket is not same as in test data
+Assert.That(productName, Is.EqualTo(TestData.CardTestProduct.ProductName))
+  Expected string length 19 but was 0. Strings differ at index 0.
+  Expected: "Gaming Keyboard RGB"
+  But was:  <string.Empty>
+  -----------^
+[2026-03-10 11:38:40.571] [ERR] Stack Trace:
+   at UI.Template.Tests.CartTest.AddProductToCartTest() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\CartTest.cs:line 29

@@ -1,0 +1,35 @@
+[2026-03-10 19:17:50.638] [INF] ####################################################################################################
+[2026-03-10 19:17:50.638] [INF] EXECUTE TEST "UI.Template.Tests.TC4.AddProductToAdminTest"
+[2026-03-10 19:17:50.645] [INF] Test Properties: {
+  LevelOfParallelism: 1
+  ParallelScope: Fixtures
+}
+[2026-03-10 19:17:50.645] [INF] TEST START
+[2026-03-10 19:17:50.646] [INF] Initializing a WebDriver session
+[2026-03-10 19:17:57.289] [INF] Waiting for the method '<IsDisplayed>b__4_0' to be true.
+[2026-03-10 19:17:57.406] [INF] Condition '<IsDisplayed>b__4_0' is fulfilled
+[2026-03-10 19:17:57.424] [INF] Waiting for the method '<GetProductCards>b__0' to be true.
+[2026-03-10 19:17:57.448] [INF] Condition '<GetProductCards>b__0' is fulfilled
+[2026-03-10 19:18:53.490] [INF] TEST END
+[2026-03-10 19:18:53.492] [INF] Test Result: Failed
+[2026-03-10 19:18:53.513] [INF] Saving page source to: '../../../Logs\2026-03-10\run_at_19-17-50\TC4\AddProductToAdminTest_0-1009\page_error_19-18-53-512.html'
+[2026-03-10 19:18:53.523] [INF] Saving 'Browser' logs to '../../../Logs\2026-03-10\run_at_19-17-50\TC4\AddProductToAdminTest_0-1009\Browser_error_19-18-53-514.log'
+[2026-03-10 19:18:53.673] [INF] Saving screenshot to: '../../../Logs\2026-03-10\run_at_19-17-50\TC4\AddProductToAdminTest_0-1009\screenshot_error_19-18-53-524.png'
+[2026-03-10 19:18:53.674] [INF] Trying to quit WebDriver session '494450e8c0572eec191121debff442b2'
+[2026-03-10 19:18:53.850] [ERR] Error Message:
+OpenQA.Selenium.UnhandledAlertException : unexpected alert open: {Alert text : The following products cannot be bought: DSLR Camera X200}
+  (Session info: chrome=145.0.7632.160)
+[2026-03-10 19:18:53.851] [ERR] Stack Trace:
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.get_Url()
+   at UI.Template.Globals.WaitForReady() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Globals.cs:line 159
+   at UI.Template.Framework.Extensions.IWebDriverExtensions.WaitForReady(IWebDriver _) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Framework\Extensions\IWebDriverExtensions.cs:line 58
+   at UI.Template.Components.BaseComponent.WaitForReady() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\BaseComponent.cs:line 645
+   at UI.Template.Components.Basic.Button.Click() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\Basic\Button.cs:line 23
+   at UI.Template.Tests.TC4.AddProductToAdminTest() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\TC4.cs:line 62
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+[2026-03-10 19:18:53.856] [INF] Closing the logger...
+[2026-03-10 19:18:53.856] [INF] ####################################################################################################

@@ -1,0 +1,238 @@
+[2026-03-10 13:43:23.076] [INF] [LogFactory.InitializeLogger] ####################################################################################################
+[2026-03-10 13:43:23.076] [INF] [BaseTest.BaseSetUp] EXECUTE TEST "UI.Template.Tests.TC4.AddProductToAdminTest"
+[2026-03-10 13:43:23.082] [INF] [BaseTest.LogTestProperties] Test Properties: {
+  LevelOfParallelism: 1
+  ParallelScope: Fixtures
+}
+[2026-03-10 13:43:23.082] [INF] [BaseTest.BaseSetUp] TEST START
+[2026-03-10 13:43:23.085] [INF] [WebDriverFactory.InitializeWebDriver] Initializing a WebDriver session
+[2026-03-10 13:43:24.119] [VRB] [WebDriverFactory.InitializeWebDriver] New created WebDriver session is 'f053a516a06f70c6c578c86788c08625'
+[2026-03-10 13:43:24.123] [VRB] [BasePage.Open] Opening page https://eshop-demo-766125429055.europe-central2.run.app/ with user authorization.
+[2026-03-10 13:43:29.472] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-10 13:43:29.474] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsNotDisplayed>b__30_0' on 'Simple' with locator 'By.XPath: //*[@class='cart-count']'.
+[2026-03-10 13:43:29.492] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:29.493] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsClicked>b__60_0' on 'Simple' with locator 'By.XPath: //li[contains (text(),'Cameras')]'.
+[2026-03-10 13:43:29.516] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsClicked>b__60_1' on 'Simple' with locator 'By.XPath: //li[contains (text(),'Cameras')]'.
+[2026-03-10 13:43:29.579] [INF] [WebDriverWaitExtensions.TryWaitWithCondition] Waiting for the method '<IsDisplayed>b__4_0' to be true.
+[2026-03-10 13:43:29.583] [VRB] [WebDriverWaitExtensions.GetCustomWait] Initialize custom wait with timeout '5(s)' and interval '500(ms)'
+[2026-03-10 13:43:29.584] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CategoryContainer' with locator 'By.XPath: //*[@class='categories-sidebar']'.
+[2026-03-10 13:43:29.669] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'Simple' with locator 'By.XPath: //ul[@class='category-list']'.
+[2026-03-10 13:43:29.695] [INF] [WebDriverWaitExtensions.TryWaitWithCondition] Condition '<IsDisplayed>b__4_0' is fulfilled
+[2026-03-10 13:43:29.710] [INF] [WebDriverWaitExtensions.TryWaitWithCondition] Waiting for the method '<GetProductCards>b__0' to be true.
+[2026-03-10 13:43:29.711] [VRB] [WebDriverWaitExtensions.GetCustomWait] Initialize custom wait with timeout '5(s)' and interval '500(ms)'
+[2026-03-10 13:43:29.722] [INF] [WebDriverWaitExtensions.TryWaitWithCondition] Condition '<GetProductCards>b__0' is fulfilled
+[2026-03-10 13:43:29.729] [VRB] [BaseComponent.ScrollTo] Scrolling to 'ProductCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-10 13:43:29.729] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<ScrollTo>b__55_0' on 'ProductCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-10 13:43:29.748] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<ScrollTo>b__55_1' on 'ProductCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-10 13:43:29.759] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-10 13:43:29.760] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'ProductCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-10 13:43:29.789] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'ProductCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-10 13:43:29.806] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//a[@class='product-link']//h3'.
+[2026-03-10 13:43:29.837] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//a[@class='product-link']//h3' is 'DSLR Camera X200'.
+[2026-03-10 13:43:29.838] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:29.849] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:30.351] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:30.361] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:30.868] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:30.878] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:31.383] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:31.422] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:31.933] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:31.941] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:32.447] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:32.455] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:32.959] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:32.967] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:33.475] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:33.483] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:33.990] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:34.000] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:34.506] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:34.514] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:35.023] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:35.031] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:35.538] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:35.546] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:36.050] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:36.071] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:36.583] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:36.591] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:37.092] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:37.100] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:37.608] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:37.616] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:38.122] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:38.130] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:38.634] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:38.641] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:39.148] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:39.167] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:39.678] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:39.686] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:40.189] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:40.197] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:40.704] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:40.712] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:41.216] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:41.224] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:41.730] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:41.736] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:42.244] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:42.251] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:42.757] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:42.822] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:43.330] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:43.338] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:43.845] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:43.852] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:44.359] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:44.368] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:44.877] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:44.886] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:45.393] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:45.413] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:45.927] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:45.934] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:46.445] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:46.453] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:46.962] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:46.969] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:47.480] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:47.500] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:48.014] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:48.023] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:48.529] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:48.537] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:49.044] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:49.052] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:49.555] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:49.565] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:50.066] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:50.075] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:50.585] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:50.592] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:51.101] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:51.108] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 13:43:51.615] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:51.618] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching WebDriverException.
+OpenQA.Selenium.WebDriverException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=145.0.7632.160)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__6_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at UI.Template.Components.BaseComponent.EvaluateElementBoolFunction(Func`2 getElementCondition, Action`1 elementAction, Boolean noElement, Boolean webDriverExc) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\BaseComponent.cs:line 670
+[2026-03-10 13:43:52.123] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:52.124] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching WebDriverException.
+OpenQA.Selenium.WebDriverException: invalid session id
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__6_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at UI.Template.Components.BaseComponent.EvaluateElementBoolFunction(Func`2 getElementCondition, Action`1 elementAction, Boolean noElement, Boolean webDriverExc) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\BaseComponent.cs:line 670
+[2026-03-10 13:43:52.636] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:52.637] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching WebDriverException.
+OpenQA.Selenium.WebDriverException: invalid session id
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__6_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at UI.Template.Components.BaseComponent.EvaluateElementBoolFunction(Func`2 getElementCondition, Action`1 elementAction, Boolean noElement, Boolean webDriverExc) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\BaseComponent.cs:line 670
+[2026-03-10 13:43:53.152] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:53.153] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching WebDriverException.
+OpenQA.Selenium.WebDriverException: invalid session id
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__6_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at UI.Template.Components.BaseComponent.EvaluateElementBoolFunction(Func`2 getElementCondition, Action`1 elementAction, Boolean noElement, Boolean webDriverExc) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\BaseComponent.cs:line 670
+[2026-03-10 13:43:53.665] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:53.667] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching WebDriverException.
+OpenQA.Selenium.WebDriverException: invalid session id
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__6_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at UI.Template.Components.BaseComponent.EvaluateElementBoolFunction(Func`2 getElementCondition, Action`1 elementAction, Boolean noElement, Boolean webDriverExc) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\BaseComponent.cs:line 670
+[2026-03-10 13:43:54.180] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:54.182] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching WebDriverException.
+OpenQA.Selenium.WebDriverException: invalid session id
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__6_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at UI.Template.Components.BaseComponent.EvaluateElementBoolFunction(Func`2 getElementCondition, Action`1 elementAction, Boolean noElement, Boolean webDriverExc) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\BaseComponent.cs:line 670
+[2026-03-10 13:43:54.694] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:54.694] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching WebDriverException.
+OpenQA.Selenium.WebDriverException: invalid session id
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__6_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at UI.Template.Components.BaseComponent.EvaluateElementBoolFunction(Func`2 getElementCondition, Action`1 elementAction, Boolean noElement, Boolean webDriverExc) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\BaseComponent.cs:line 670
+[2026-03-10 13:43:55.198] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:55.199] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching WebDriverException.
+OpenQA.Selenium.WebDriverException: invalid session id
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__6_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at UI.Template.Components.BaseComponent.EvaluateElementBoolFunction(Func`2 getElementCondition, Action`1 elementAction, Boolean noElement, Boolean webDriverExc) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\BaseComponent.cs:line 670
+[2026-03-10 13:43:55.710] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:55.712] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching WebDriverException.
+OpenQA.Selenium.WebDriverException: invalid session id
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__6_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at UI.Template.Components.BaseComponent.EvaluateElementBoolFunction(Func`2 getElementCondition, Action`1 elementAction, Boolean noElement, Boolean webDriverExc) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\BaseComponent.cs:line 670
+[2026-03-10 13:43:56.213] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:56.214] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching WebDriverException.
+OpenQA.Selenium.WebDriverException: invalid session id
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__6_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at UI.Template.Components.BaseComponent.EvaluateElementBoolFunction(Func`2 getElementCondition, Action`1 elementAction, Boolean noElement, Boolean webDriverExc) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\BaseComponent.cs:line 670
+[2026-03-10 13:43:56.729] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 13:43:56.730] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching WebDriverException.
+OpenQA.Selenium.WebDriverException: invalid session id
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__6_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at UI.Template.Components.BaseComponent.EvaluateElementBoolFunction(Func`2 getElementCondition, Action`1 elementAction, Boolean noElement, Boolean webDriverExc) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\BaseComponent.cs:line 670

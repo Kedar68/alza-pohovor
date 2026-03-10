@@ -1,0 +1,4 @@
+[2026-03-10T19:46:53Z] [Info] https://eshop-demo-766125429055.europe-central2.run.app/main-SBPACWPT.js 6:255804 "Víš, že Alza byla založena v roce 1994?"
+[2026-03-10T19:46:58Z] [Info] https://eshop-demo-766125429055.europe-central2.run.app/main-SBPACWPT.js 100:32635 "toggleCart called in ProductDetailComponent, showCart before:" false
+[2026-03-10T19:46:58Z] [Info] https://eshop-demo-766125429055.europe-central2.run.app/main-SBPACWPT.js 100:32755 "showCart after:" true
+[2026-03-10T19:47:00Z] [Info] https://eshop-demo-766125429055.europe-central2.run.app/main-SBPACWPT.js 6:264656 "Reduced stock for product 3: 9 remaining"

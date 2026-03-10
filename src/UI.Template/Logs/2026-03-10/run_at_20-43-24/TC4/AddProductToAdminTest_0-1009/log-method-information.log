@@ -1,0 +1,31 @@
+[2026-03-10 20:43:24.649] [INF] ####################################################################################################
+[2026-03-10 20:43:24.653] [INF] EXECUTE TEST "UI.Template.Tests.TC4.AddProductToAdminTest"
+[2026-03-10 20:43:24.662] [INF] Test Properties: {
+  LevelOfParallelism: 1
+  ParallelScope: Fixtures
+}
+[2026-03-10 20:43:24.663] [INF] TEST START
+[2026-03-10 20:43:24.665] [INF] Initializing a WebDriver session
+[2026-03-10 20:43:31.678] [INF] Waiting for the method '<IsDisplayed>b__4_0' to be true.
+[2026-03-10 20:43:31.784] [INF] Condition '<IsDisplayed>b__4_0' is fulfilled
+[2026-03-10 20:43:31.790] [INF] Waiting for the method '<GetProductCards>b__0' to be true.
+[2026-03-10 20:43:31.808] [INF] Condition '<GetProductCards>b__0' is fulfilled
+[2026-03-10 20:45:42.808] [INF] TEST END
+[2026-03-10 20:45:42.817] [INF] Test Result: Failed
+[2026-03-10 20:45:42.857] [INF] Saving page source to: '../../../Logs\2026-03-10\run_at_20-43-24\TC4\AddProductToAdminTest_0-1009\page_error_20-45-42-855.html'
+[2026-03-10 20:45:42.880] [INF] Saving 'Browser' logs to '../../../Logs\2026-03-10\run_at_20-43-24\TC4\AddProductToAdminTest_0-1009\Browser_error_20-45-42-858.log'
+[2026-03-10 20:45:43.114] [INF] Saving screenshot to: '../../../Logs\2026-03-10\run_at_20-43-24\TC4\AddProductToAdminTest_0-1009\screenshot_error_20-45-42-886.png'
+[2026-03-10 20:45:43.119] [INF] Trying to quit WebDriver session '858fadbea761862c087cd7086613f7b7'
+[2026-03-10 20:45:43.489] [ERR] Error Message:
+OpenQA.Selenium.WebDriverTimeoutException : Timed out after 60 seconds: Couldn't get text of the 'Simple' with locator 'By.XPath: //span[@ko-id='order-paymentMethod']' during the timeout.
+[2026-03-10 20:45:43.490] [ERR] Stack Trace:
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at UI.Template.Components.BaseComponent.GetText() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\BaseComponent.cs:line 294
+   at UI.Template.Components.Containers.CheckoutFormContainer.GetSelectedPaymentMethod() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\Containers\CheckoutFormContainer.cs:line 148
+   at UI.Template.Tests.TC4.AddProductToAdminTest() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\TC4.cs:line 68
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+[2026-03-10 20:45:43.495] [INF] Closing the logger...
+[2026-03-10 20:45:43.496] [INF] ####################################################################################################

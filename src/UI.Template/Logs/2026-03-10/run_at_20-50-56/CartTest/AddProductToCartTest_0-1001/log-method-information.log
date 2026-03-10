@@ -1,0 +1,17 @@
+[2026-03-10 20:50:57.170] [INF] ####################################################################################################
+[2026-03-10 20:50:57.171] [INF] EXECUTE TEST "UI.Template.Tests.CartTest.AddProductToCartTest"
+[2026-03-10 20:50:57.180] [INF] Test Properties: {
+  LevelOfParallelism: 1
+  ParallelScope: Fixtures
+}
+[2026-03-10 20:50:57.180] [INF] TEST START
+[2026-03-10 20:50:57.182] [INF] Initializing a WebDriver session
+[2026-03-10 20:51:04.108] [INF] Waiting for the method '<IsDisplayed>b__4_0' to be true.
+[2026-03-10 20:51:04.518] [INF] Condition '<IsDisplayed>b__4_0' is fulfilled
+[2026-03-10 20:51:04.544] [INF] Waiting for the method '<GetProductCards>b__0' to be true.
+[2026-03-10 20:51:04.562] [INF] Condition '<GetProductCards>b__0' is fulfilled
+[2026-03-10 20:51:05.843] [INF] TEST END
+[2026-03-10 20:51:05.848] [INF] Test Result: Passed
+[2026-03-10 20:51:05.850] [INF] Trying to quit WebDriver session 'd0052fb5b23c53534a018a178154b2f0'
+[2026-03-10 20:51:06.115] [INF] Closing the logger...
+[2026-03-10 20:51:06.115] [INF] ####################################################################################################

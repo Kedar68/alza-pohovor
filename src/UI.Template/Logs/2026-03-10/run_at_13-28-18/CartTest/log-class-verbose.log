@@ -1,0 +1,4 @@
+[2026-03-10 13:28:18.463] [INF] [LogFactory.InitializeLogger] ####################################################################################################
+[2026-03-10 13:28:18.495] [INF] [BaseTest.BaseOneTimeSetUp] TEST CLASS "UI.Template.Tests.CartTest"
+[2026-03-10 13:28:47.115] [INF] [LogFactory.CloseLogger] Closing the logger...
+[2026-03-10 13:28:47.116] [INF] [LogFactory.CloseLogger] ####################################################################################################

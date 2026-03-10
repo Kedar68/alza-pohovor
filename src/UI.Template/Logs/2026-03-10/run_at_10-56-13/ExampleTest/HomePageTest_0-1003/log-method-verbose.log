@@ -1,0 +1,44 @@
+[2026-03-10 10:56:14.302] [INF] [LogFactory.InitializeLogger] ####################################################################################################
+[2026-03-10 10:56:14.303] [INF] [BaseTest.BaseSetUp] EXECUTE TEST "UI.Template.Tests.ExampleTest.HomePageTest"
+[2026-03-10 10:56:14.312] [INF] [BaseTest.LogTestProperties] Test Properties: {
+  LevelOfParallelism: 1
+  ParallelScope: Fixtures
+}
+[2026-03-10 10:56:14.312] [INF] [BaseTest.BaseSetUp] TEST START
+[2026-03-10 10:56:14.315] [INF] [WebDriverFactory.InitializeWebDriver] Initializing a WebDriver session
+[2026-03-10 10:56:20.475] [VRB] [WebDriverFactory.InitializeWebDriver] New created WebDriver session is 'e9de2dce15e4bfacf497d2a371141413'
+[2026-03-10 10:56:20.484] [VRB] [BasePage.Open] Opening page https://eshop-demo-766125429055.europe-central2.run.app/ with user authorization.
+[2026-03-10 10:56:25.814] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-10 10:56:25.816] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsNotDisplayed>b__30_0' on 'Simple' with locator 'By.XPath: //*[@class='cart-count']'.
+[2026-03-10 10:56:25.851] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 10:56:25.852] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsClicked>b__60_0' on 'Simple' with locator 'By.XPath: //li[contains (text(),'Electronics')]'.
+[2026-03-10 10:56:25.904] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsClicked>b__60_1' on 'Simple' with locator 'By.XPath: //li[contains (text(),'Electronics')]'.
+[2026-03-10 10:56:26.588] [INF] [WebDriverWaitExtensions.TryWaitWithCondition] Waiting for the method '<IsDisplayed>b__4_0' to be true.
+[2026-03-10 10:56:26.594] [VRB] [WebDriverWaitExtensions.GetCustomWait] Initialize custom wait with timeout '5(s)' and interval '500(ms)'
+[2026-03-10 10:56:26.595] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CategoryContainer' with locator 'By.XPath: //*[@class='categories-sidebar']'.
+[2026-03-10 10:56:26.623] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'Simple' with locator 'By.XPath: //ul[@class='category-list']'.
+[2026-03-10 10:56:26.652] [INF] [WebDriverWaitExtensions.TryWaitWithCondition] Condition '<IsDisplayed>b__4_0' is fulfilled
+[2026-03-10 10:56:26.662] [INF] [WebDriverWaitExtensions.TryWaitWithCondition] Waiting for the method '<GetProductCards>b__0' to be true.
+[2026-03-10 10:56:26.662] [VRB] [WebDriverWaitExtensions.GetCustomWait] Initialize custom wait with timeout '5(s)' and interval '500(ms)'
+[2026-03-10 10:56:26.685] [INF] [WebDriverWaitExtensions.TryWaitWithCondition] Condition '<GetProductCards>b__0' is fulfilled
+[2026-03-10 10:56:26.715] [VRB] [BaseComponent.ScrollTo] Scrolling to 'ProductCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-10 10:56:26.715] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<ScrollTo>b__55_0' on 'ProductCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-10 10:56:26.732] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<ScrollTo>b__55_1' on 'ProductCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-10 10:56:26.754] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-10 10:56:26.754] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'ProductCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-10 10:56:26.811] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'ProductCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-10 10:56:26.838] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//a[@class='product-link']//h3'.
+[2026-03-10 10:56:26.889] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//a[@class='product-link']//h3' is 'Smartphone G12'.
+[2026-03-10 10:56:26.892] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 10:56:26.936] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsClicked>b__60_0' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 10:56:26.961] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsClicked>b__60_1' on 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']'.
+[2026-03-10 10:56:27.063] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-10 10:56:27.071] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsNotDisplayed>b__30_0' on 'Simple' with locator 'By.XPath: //*[@class='cart-count']'.
+[2026-03-10 10:56:27.098] [VRB] [BaseComponent.EvaluateElementBoolFunction] 'Simple' with locator 'By.XPath: //*[@class='cart-count']' matching the condition not found.
+[2026-03-10 10:56:27.098] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //*[@class='cart-count']'.
+[2026-03-10 10:56:27.147] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: //*[@class='cart-count']' is '1'.
+[2026-03-10 10:56:27.149] [INF] [BaseTest.BaseTearDown] TEST END
+[2026-03-10 10:56:27.153] [INF] [BaseTest.BaseTearDown] Test Result: Passed
+[2026-03-10 10:56:27.154] [INF] [BaseTest.CloseDriver] Trying to quit WebDriver session 'e9de2dce15e4bfacf497d2a371141413'
+[2026-03-10 10:56:27.489] [INF] [LogFactory.CloseLogger] Closing the logger...
+[2026-03-10 10:56:27.490] [INF] [LogFactory.CloseLogger] ####################################################################################################

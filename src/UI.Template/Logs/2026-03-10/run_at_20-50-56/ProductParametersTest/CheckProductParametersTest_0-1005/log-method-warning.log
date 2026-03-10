@@ -1,0 +1,52 @@
+[2026-03-10 20:51:35.210] [FTL] Cannot download the page source.
+OpenQA.Selenium.WebDriverException: invalid session id
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.get_PageSource()
+   at UI.Template.Framework.Extensions.IWebDriverExtensions.SavePageSource(IWebDriver webDriver, String optionalFileNameSuffix) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Framework\Extensions\IWebDriverExtensions.cs:line 255
+[2026-03-10 20:51:35.212] [ERR] Cannot get logs for the log type 'browser'
+
+[2026-03-10 20:51:35.213] [ERR] Message type: error; message content: invalid session id
+[2026-03-10 20:51:35.213] [ERR] Message type: message; message content: invalid session id
+[2026-03-10 20:51:35.213] [ERR] Message type: stacktrace; message content: Symbols not available. Dumping unresolved backtrace:
+	0x7ff733a3aa55
+	0x7ff733798630
+	0x7ff73352d546
+	0x7ff733578113
+	0x7ff7335b18e2
+	0x7ff7335abb11
+	0x7ff7335aadc3
+	0x7ff7334f6505
+	0x7ff733a67810
+	0x7ff733a61afd
+	0x7ff733a82c1a
+	0x7ff7337b3345
+	0x7ff7337bb81c
+	0x7ff7334f536a
+	0x7ff733bc2b08
+	0x7fff8656e8d7
+	0x7fff876ac40c
+
+[2026-03-10 20:51:35.213] [WRN] There is no content available and it won't be stored
+[2026-03-10 20:51:35.225] [ERR] Error Message:
+OpenQA.Selenium.WebDriverException : invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=145.0.7632.160)
+[2026-03-10 20:51:35.226] [ERR] Stack Trace:
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at UI.Template.Components.BaseComponent.EvaluateElementStringFunction(Func`2 getElementCondition, Func`2 elementAction) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\BaseComponent.cs:line 774
+   at UI.Template.Components.BaseComponent.<GetText>b__40_0(IWebDriver _) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\BaseComponent.cs:line 295
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at UI.Template.Components.BaseComponent.GetText() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\BaseComponent.cs:line 294
+   at UI.Template.Components.Containers.CategoryContainer.GetCurrentCategory() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\Containers\CategoryContainer.cs:line 37
+   at UI.Template.Pages.HomePage.GetCurrentCategory() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Pages\HomePage.cs:line 78
+   at UI.Template.Tests.ProductParametersTest.<>c__DisplayClass0_0.<CheckProductParametersTest>b__0() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\ProductParametersTest.cs:line 24
+   at NUnit.Framework.Assert.Multiple(TestDelegate testDelegate)
+   at UI.Template.Tests.ProductParametersTest.CheckProductParametersTest() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\ProductParametersTest.cs:line 21
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)

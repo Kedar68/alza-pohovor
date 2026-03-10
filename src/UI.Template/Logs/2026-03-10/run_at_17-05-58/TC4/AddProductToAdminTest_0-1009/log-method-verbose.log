@@ -1,0 +1,121 @@
+[2026-03-10 17:05:58.387] [INF] [LogFactory.InitializeLogger] ####################################################################################################
+[2026-03-10 17:05:58.392] [INF] [BaseTest.BaseSetUp] EXECUTE TEST "UI.Template.Tests.TC4.AddProductToAdminTest"
+[2026-03-10 17:05:58.401] [INF] [BaseTest.LogTestProperties] Test Properties: {
+  LevelOfParallelism: 1
+  ParallelScope: Fixtures
+}
+[2026-03-10 17:05:58.401] [INF] [BaseTest.BaseSetUp] TEST START
+[2026-03-10 17:05:58.405] [INF] [WebDriverFactory.InitializeWebDriver] Initializing a WebDriver session
+[2026-03-10 17:05:59.673] [VRB] [WebDriverFactory.InitializeWebDriver] New created WebDriver session is '9b03042821ba8a4a8578ea2bcf10b2bb'
+[2026-03-10 17:05:59.678] [VRB] [BasePage.Open] Opening page https://eshop-demo-766125429055.europe-central2.run.app/ with user authorization.
+[2026-03-10 17:06:03.899] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-10 17:06:03.903] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsClicked>b__60_0' on 'Simple' with locator 'By.XPath: //li[contains (text(),'Cameras')]'.
+[2026-03-10 17:06:03.925] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsClicked>b__60_1' on 'Simple' with locator 'By.XPath: //li[contains (text(),'Cameras')]'.
+[2026-03-10 17:06:04.173] [INF] [WebDriverWaitExtensions.TryWaitWithCondition] Waiting for the method '<IsDisplayed>b__4_0' to be true.
+[2026-03-10 17:06:04.176] [VRB] [WebDriverWaitExtensions.GetCustomWait] Initialize custom wait with timeout '5(s)' and interval '500(ms)'
+[2026-03-10 17:06:04.177] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CategoryContainer' with locator 'By.XPath: //*[@class='categories-sidebar']'.
+[2026-03-10 17:06:04.282] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'Simple' with locator 'By.XPath: //ul[@class='category-list']'.
+[2026-03-10 17:06:04.309] [INF] [WebDriverWaitExtensions.TryWaitWithCondition] Condition '<IsDisplayed>b__4_0' is fulfilled
+[2026-03-10 17:06:04.317] [INF] [WebDriverWaitExtensions.TryWaitWithCondition] Waiting for the method '<GetProductCards>b__0' to be true.
+[2026-03-10 17:06:04.317] [VRB] [WebDriverWaitExtensions.GetCustomWait] Initialize custom wait with timeout '5(s)' and interval '500(ms)'
+[2026-03-10 17:06:04.328] [INF] [WebDriverWaitExtensions.TryWaitWithCondition] Condition '<GetProductCards>b__0' is fulfilled
+[2026-03-10 17:06:04.337] [VRB] [BaseComponent.ScrollTo] Scrolling to 'ProductCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-10 17:06:04.337] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<ScrollTo>b__55_0' on 'ProductCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-10 17:06:04.346] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<ScrollTo>b__55_1' on 'ProductCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-10 17:06:04.366] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-10 17:06:04.366] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'ProductCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-10 17:06:04.379] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'ProductCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-10 17:06:04.395] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//a[@class='product-link']//h3'.
+[2026-03-10 17:06:04.427] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//a[@class='product-link']//h3' is 'DSLR Camera X200'.
+[2026-03-10 17:06:04.428] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsClicked>b__60_0' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//a[@class='product-link']//h3'.
+[2026-03-10 17:06:04.442] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsClicked>b__60_1' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//a[@class='product-link']//h3'.
+[2026-03-10 17:06:04.542] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-10 17:06:04.542] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsClicked>b__60_0' on 'Button' with locator 'By.XPath: //div[@class='product-info']//button[@class='add-to-cart']'.
+[2026-03-10 17:06:04.559] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsClicked>b__60_1' on 'Button' with locator 'By.XPath: //div[@class='product-info']//button[@class='add-to-cart']'.
+[2026-03-10 17:06:04.619] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-10 17:06:04.620] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsNotDisplayed>b__30_0' on 'Simple' with locator 'By.XPath: //*[@class='cart-count']'.
+[2026-03-10 17:06:04.638] [VRB] [BaseComponent.EvaluateElementBoolFunction] 'Simple' with locator 'By.XPath: //*[@class='cart-count']' matching the condition not found.
+[2026-03-10 17:06:04.638] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //*[@class='cart-count']'.
+[2026-03-10 17:06:04.661] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: //*[@class='cart-count']' is '1'.
+[2026-03-10 17:06:04.662] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsNotDisplayed>b__30_0' on 'Simple' with locator 'By.XPath: //div[@class='cart-items']'.
+[2026-03-10 17:06:04.704] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 17:06:04.704] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsClicked>b__60_0' on 'Simple' with locator 'By.XPath: //*[@class='cart-widget']'.
+[2026-03-10 17:06:04.723] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsClicked>b__60_1' on 'Simple' with locator 'By.XPath: //*[@class='cart-widget']'.
+[2026-03-10 17:06:04.776] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'Simple' with locator 'By.XPath: //div[@class='cart-items']'.
+[2026-03-10 17:06:04.801] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-details'])[1]'.
+[2026-03-10 17:06:04.819] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-details'])[1]/h3'.
+[2026-03-10 17:06:04.843] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: (//*[@class='cart-item-details'])[1]/h3' is 'DSLR Camera X200'.
+[2026-03-10 17:06:04.843] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-details'])[1]/p'.
+[2026-03-10 17:06:04.871] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: (//*[@class='cart-item-details'])[1]/p' is '$ 700.00 × 1'.
+[2026-03-10 17:06:04.871] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-controls'])[1]/span[@class='cart-quantity']'.
+[2026-03-10 17:06:04.900] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 17:06:05.407] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-controls'])[1]/span[@class='cart-quantity']'.
+[2026-03-10 17:06:05.433] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 17:06:05.941] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-controls'])[1]/span[@class='cart-quantity']'.
+[2026-03-10 17:06:05.978] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 17:06:06.487] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-controls'])[1]/span[@class='cart-quantity']'.
+[2026-03-10 17:06:06.559] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 17:06:07.066] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-controls'])[1]/span[@class='cart-quantity']'.
+[2026-03-10 17:06:07.112] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 17:06:07.622] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-controls'])[1]/span[@class='cart-quantity']'.
+[2026-03-10 17:06:07.680] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 17:06:08.190] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-controls'])[1]/span[@class='cart-quantity']'.
+[2026-03-10 17:06:08.249] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 17:06:08.762] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-controls'])[1]/span[@class='cart-quantity']'.
+[2026-03-10 17:06:08.825] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 17:06:09.327] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-controls'])[1]/span[@class='cart-quantity']'.
+[2026-03-10 17:06:09.385] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 17:06:09.901] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-controls'])[1]/span[@class='cart-quantity']'.
+[2026-03-10 17:06:09.956] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 17:06:10.473] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-controls'])[1]/span[@class='cart-quantity']'.
+[2026-03-10 17:06:10.534] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 17:06:11.042] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-controls'])[1]/span[@class='cart-quantity']'.
+[2026-03-10 17:06:11.113] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 17:06:11.629] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-controls'])[1]/span[@class='cart-quantity']'.
+[2026-03-10 17:06:11.678] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 17:06:12.186] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-controls'])[1]/span[@class='cart-quantity']'.
+[2026-03-10 17:06:12.246] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 17:06:12.750] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-controls'])[1]/span[@class='cart-quantity']'.
+[2026-03-10 17:06:12.788] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 17:06:13.303] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-controls'])[1]/span[@class='cart-quantity']'.
+[2026-03-10 17:06:13.344] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 17:06:13.854] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-controls'])[1]/span[@class='cart-quantity']'.
+[2026-03-10 17:06:13.920] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 17:06:14.428] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-controls'])[1]/span[@class='cart-quantity']'.
+[2026-03-10 17:06:14.472] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 17:06:14.983] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-controls'])[1]/span[@class='cart-quantity']'.
+[2026-03-10 17:06:15.017] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 17:06:15.522] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-controls'])[1]/span[@class='cart-quantity']'.
+[2026-03-10 17:06:15.569] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 17:06:16.078] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-controls'])[1]/span[@class='cart-quantity']'.
+[2026-03-10 17:06:16.136] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 17:06:16.651] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-controls'])[1]/span[@class='cart-quantity']'.
+[2026-03-10 17:06:16.694] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 17:06:17.203] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-controls'])[1]/span[@class='cart-quantity']'.
+[2026-03-10 17:06:17.261] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 17:06:17.764] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-controls'])[1]/span[@class='cart-quantity']'.
+[2026-03-10 17:06:17.819] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 17:06:18.322] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-controls'])[1]/span[@class='cart-quantity']'.
+[2026-03-10 17:06:18.336] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 17:06:18.852] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-controls'])[1]/span[@class='cart-quantity']'.
+[2026-03-10 17:06:18.866] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 17:06:19.374] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-controls'])[1]/span[@class='cart-quantity']'.
+[2026-03-10 17:06:19.387] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 17:06:19.889] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-controls'])[1]/span[@class='cart-quantity']'.
+[2026-03-10 17:06:19.903] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 17:06:20.406] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-controls'])[1]/span[@class='cart-quantity']'.
+[2026-03-10 17:06:20.426] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 17:06:20.929] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-controls'])[1]/span[@class='cart-quantity']'.
+[2026-03-10 17:06:20.946] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 17:06:21.448] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-controls'])[1]/span[@class='cart-quantity']'.
+[2026-03-10 17:06:21.462] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 17:06:21.976] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-controls'])[1]/span[@class='cart-quantity']'.
+[2026-03-10 17:06:21.989] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 17:06:22.500] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-controls'])[1]/span[@class='cart-quantity']'.
+[2026-03-10 17:06:22.531] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 17:06:23.041] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-controls'])[1]/span[@class='cart-quantity']'.
+[2026-03-10 17:06:23.054] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 17:06:23.558] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-controls'])[1]/span[@class='cart-quantity']'.
+[2026-03-10 17:06:23.578] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 17:06:24.081] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='cart-item-controls'])[1]/span[@class='cart-quantity']'.
+[2026-03-10 17:06:24.100] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.

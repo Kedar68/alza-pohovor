@@ -1,0 +1,9 @@
+[2026-03-10 17:19:31.692] [ERR] Error Message:
+  The price of product in the basket is not same as in test data
+Assert.That(productPrice, Is.EqualTo("700"))
+  Expected string length 3 but was 12. Strings differ at index 0.
+  Expected: "700"
+  But was:  "$ 700.00 × 1"
+  -----------^
+[2026-03-10 17:19:31.694] [ERR] Stack Trace:
+   at UI.Template.Tests.TC4.AddProductToAdminTest() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\TC4.cs:line 34

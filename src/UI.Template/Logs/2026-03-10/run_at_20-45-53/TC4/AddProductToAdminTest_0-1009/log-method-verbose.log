@@ -1,0 +1,195 @@
+[2026-03-10 20:45:53.828] [INF] [LogFactory.InitializeLogger] ####################################################################################################
+[2026-03-10 20:45:53.832] [INF] [BaseTest.BaseSetUp] EXECUTE TEST "UI.Template.Tests.TC4.AddProductToAdminTest"
+[2026-03-10 20:45:53.844] [INF] [BaseTest.LogTestProperties] Test Properties: {
+  LevelOfParallelism: 1
+  ParallelScope: Fixtures
+}
+[2026-03-10 20:45:53.845] [INF] [BaseTest.BaseSetUp] TEST START
+[2026-03-10 20:45:53.847] [INF] [WebDriverFactory.InitializeWebDriver] Initializing a WebDriver session
+[2026-03-10 20:45:55.014] [VRB] [WebDriverFactory.InitializeWebDriver] New created WebDriver session is '8d8cc7171c8141c8baa88ec26bbcda3a'
+[2026-03-10 20:45:55.021] [VRB] [BasePage.Open] Opening page https://eshop-demo-766125429055.europe-central2.run.app/ with user authorization.
+[2026-03-10 20:46:00.116] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-10 20:46:00.120] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsClicked>b__60_0' on 'Simple' with locator 'By.XPath: //li[contains (text(),'Monitors')]'.
+[2026-03-10 20:46:00.153] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsClicked>b__60_1' on 'Simple' with locator 'By.XPath: //li[contains (text(),'Monitors')]'.
+[2026-03-10 20:46:00.244] [INF] [WebDriverWaitExtensions.TryWaitWithCondition] Waiting for the method '<IsDisplayed>b__4_0' to be true.
+[2026-03-10 20:46:00.248] [VRB] [WebDriverWaitExtensions.GetCustomWait] Initialize custom wait with timeout '5(s)' and interval '500(ms)'
+[2026-03-10 20:46:00.249] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CategoryContainer' with locator 'By.XPath: //*[@class='categories-sidebar']'.
+[2026-03-10 20:46:00.314] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'Simple' with locator 'By.XPath: //ul[@class='category-list']'.
+[2026-03-10 20:46:00.349] [INF] [WebDriverWaitExtensions.TryWaitWithCondition] Condition '<IsDisplayed>b__4_0' is fulfilled
+[2026-03-10 20:46:00.367] [INF] [WebDriverWaitExtensions.TryWaitWithCondition] Waiting for the method '<GetProductCards>b__0' to be true.
+[2026-03-10 20:46:00.367] [VRB] [WebDriverWaitExtensions.GetCustomWait] Initialize custom wait with timeout '5(s)' and interval '500(ms)'
+[2026-03-10 20:46:00.385] [INF] [WebDriverWaitExtensions.TryWaitWithCondition] Condition '<GetProductCards>b__0' is fulfilled
+[2026-03-10 20:46:00.397] [VRB] [BaseComponent.ScrollTo] Scrolling to 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-10 20:46:00.404] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<ScrollTo>b__55_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-10 20:46:00.419] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<ScrollTo>b__55_1' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-10 20:46:00.436] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-10 20:46:00.437] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-10 20:46:00.458] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-10 20:46:00.480] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//a[@class='product-link']//h3'.
+[2026-03-10 20:46:00.522] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//a[@class='product-link']//h3' is '4K LED Monitor'.
+[2026-03-10 20:46:00.523] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsClicked>b__60_0' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//a[@class='product-link']//h3'.
+[2026-03-10 20:46:00.544] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsClicked>b__60_1' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//a[@class='product-link']//h3'.
+[2026-03-10 20:46:00.681] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-10 20:46:00.682] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsClicked>b__60_0' on 'Button' with locator 'By.XPath: //div[@class='product-info']//button[@class='add-to-cart']'.
+[2026-03-10 20:46:00.706] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsClicked>b__60_1' on 'Button' with locator 'By.XPath: //div[@class='product-info']//button[@class='add-to-cart']'.
+[2026-03-10 20:46:00.795] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-10 20:46:00.796] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsNotDisplayed>b__30_0' on 'Simple' with locator 'By.XPath: //div[@class='cart-items']'.
+[2026-03-10 20:46:00.853] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:00.854] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsClicked>b__60_0' on 'Simple' with locator 'By.XPath: //*[@class='cart-widget']'.
+[2026-03-10 20:46:00.879] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsClicked>b__60_1' on 'Simple' with locator 'By.XPath: //*[@class='cart-widget']'.
+[2026-03-10 20:46:00.956] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'Simple' with locator 'By.XPath: //button[@class='checkout-button']'.
+[2026-03-10 20:46:01.011] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:01.013] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:01.056] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:01.565] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:01.604] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:02.109] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:02.146] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:02.658] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:02.698] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:03.212] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:03.254] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:03.757] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:03.796] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:04.311] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:04.389] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:04.895] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:04.951] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:05.456] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:05.511] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:06.015] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:06.077] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:06.579] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:06.639] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:07.141] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:07.186] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:07.701] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:07.752] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:08.261] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:08.321] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:08.824] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:08.865] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:09.377] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:09.434] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:09.939] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:09.999] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:10.502] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:10.557] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:11.058] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:11.117] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:11.624] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:11.688] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:12.191] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:12.247] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:12.748] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:12.809] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:13.315] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:13.375] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:13.889] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:13.931] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:14.438] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:14.494] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:15.005] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:15.067] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:15.570] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:15.638] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:16.153] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:16.207] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:16.718] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:16.785] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:17.297] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:17.357] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:17.865] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:17.904] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:18.411] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:18.460] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:18.961] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:19.199] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:19.701] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:19.757] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:20.259] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:20.333] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:20.843] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:20.903] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:21.416] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:21.478] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:21.995] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:22.056] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:22.565] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:22.625] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:23.132] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:23.188] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:23.694] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:23.736] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:24.245] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:24.307] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:24.809] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:24.870] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:25.378] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:25.434] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:25.942] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:26.009] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:26.514] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:26.572] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:27.078] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:27.136] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:27.641] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:27.683] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:28.191] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:28.245] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:28.760] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:28.818] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:29.325] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:29.368] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:29.876] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:29.916] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:30.420] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:30.452] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:30.958] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:30.991] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:31.502] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:31.534] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:32.036] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:32.068] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:32.573] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:32.606] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:33.107] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:33.143] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:33.648] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:33.683] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:34.199] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:34.231] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:34.737] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:34.768] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:35.271] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:35.301] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:35.802] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:35.847] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:36.351] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:36.383] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:36.885] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:36.919] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:37.431] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:37.463] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:37.969] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:38.002] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:38.518] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:38.561] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:39.068] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:39.101] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:39.614] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:39.646] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:40.161] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:40.189] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:40.690] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:40.702] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:41.206] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:41.222] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:41.735] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:41.752] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:42.260] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:42.273] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:42.782] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:42.799] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:46:43.306] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:46:43.318] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.

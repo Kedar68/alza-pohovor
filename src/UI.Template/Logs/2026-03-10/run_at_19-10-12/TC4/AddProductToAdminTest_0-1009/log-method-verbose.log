@@ -1,0 +1,163 @@
+[2026-03-10 19:10:12.448] [INF] [LogFactory.InitializeLogger] ####################################################################################################
+[2026-03-10 19:10:12.450] [INF] [BaseTest.BaseSetUp] EXECUTE TEST "UI.Template.Tests.TC4.AddProductToAdminTest"
+[2026-03-10 19:10:12.464] [INF] [BaseTest.LogTestProperties] Test Properties: {
+  LevelOfParallelism: 1
+  ParallelScope: Fixtures
+}
+[2026-03-10 19:10:12.464] [INF] [BaseTest.BaseSetUp] TEST START
+[2026-03-10 19:10:12.466] [INF] [WebDriverFactory.InitializeWebDriver] Initializing a WebDriver session
+[2026-03-10 19:10:13.773] [VRB] [WebDriverFactory.InitializeWebDriver] New created WebDriver session is '3218cf3fedbb7167b764b5b2d3895892'
+[2026-03-10 19:10:13.780] [VRB] [BasePage.Open] Opening page https://eshop-demo-766125429055.europe-central2.run.app/ with user authorization.
+[2026-03-10 19:10:18.537] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-10 19:10:18.541] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsClicked>b__60_0' on 'Simple' with locator 'By.XPath: //li[contains (text(),'Cameras')]'.
+[2026-03-10 19:10:18.588] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsClicked>b__60_1' on 'Simple' with locator 'By.XPath: //li[contains (text(),'Cameras')]'.
+[2026-03-10 19:10:18.672] [INF] [WebDriverWaitExtensions.TryWaitWithCondition] Waiting for the method '<IsDisplayed>b__4_0' to be true.
+[2026-03-10 19:10:18.677] [VRB] [WebDriverWaitExtensions.GetCustomWait] Initialize custom wait with timeout '5(s)' and interval '500(ms)'
+[2026-03-10 19:10:18.678] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CategoryContainer' with locator 'By.XPath: //*[@class='categories-sidebar']'.
+[2026-03-10 19:10:18.702] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'Simple' with locator 'By.XPath: //ul[@class='category-list']'.
+[2026-03-10 19:10:18.718] [INF] [WebDriverWaitExtensions.TryWaitWithCondition] Condition '<IsDisplayed>b__4_0' is fulfilled
+[2026-03-10 19:10:18.733] [INF] [WebDriverWaitExtensions.TryWaitWithCondition] Waiting for the method '<GetProductCards>b__0' to be true.
+[2026-03-10 19:10:18.734] [VRB] [WebDriverWaitExtensions.GetCustomWait] Initialize custom wait with timeout '5(s)' and interval '500(ms)'
+[2026-03-10 19:10:18.746] [INF] [WebDriverWaitExtensions.TryWaitWithCondition] Condition '<GetProductCards>b__0' is fulfilled
+[2026-03-10 19:10:18.759] [VRB] [BaseComponent.ScrollTo] Scrolling to 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-10 19:10:18.759] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<ScrollTo>b__55_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-10 19:10:18.777] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<ScrollTo>b__55_1' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-10 19:10:18.787] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-10 19:10:18.788] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-10 19:10:18.804] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-10 19:10:18.823] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//a[@class='product-link']//h3'.
+[2026-03-10 19:10:18.864] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//a[@class='product-link']//h3' is 'DSLR Camera X200'.
+[2026-03-10 19:10:18.865] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsClicked>b__60_0' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//a[@class='product-link']//h3'.
+[2026-03-10 19:10:18.879] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsClicked>b__60_1' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//a[@class='product-link']//h3'.
+[2026-03-10 19:10:19.017] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-10 19:10:19.018] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsClicked>b__60_0' on 'Button' with locator 'By.XPath: //div[@class='product-info']//button[@class='add-to-cart']'.
+[2026-03-10 19:10:19.035] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsClicked>b__60_1' on 'Button' with locator 'By.XPath: //div[@class='product-info']//button[@class='add-to-cart']'.
+[2026-03-10 19:10:19.101] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-10 19:10:19.101] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsNotDisplayed>b__30_0' on 'Simple' with locator 'By.XPath: //div[@class='cart-items']'.
+[2026-03-10 19:10:19.144] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 19:10:19.144] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsClicked>b__60_0' on 'Simple' with locator 'By.XPath: //*[@class='cart-widget']'.
+[2026-03-10 19:10:19.161] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsClicked>b__60_1' on 'Simple' with locator 'By.XPath: //*[@class='cart-widget']'.
+[2026-03-10 19:10:19.212] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //div[@class='product-info']//h1[@class='product-name']'.
+[2026-03-10 19:10:19.253] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: //div[@class='product-info']//h1[@class='product-name']' is 'DSLR Camera X200'.
+[2026-03-10 19:10:19.255] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //div[@class='product-info']//span[@ko-id='price-value']'.
+[2026-03-10 19:10:19.281] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: //div[@class='product-info']//span[@ko-id='price-value']' is '$ 700.00'.
+[2026-03-10 19:10:19.285] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsNotDisplayed>b__30_0' on 'Simple' with locator 'By.XPath: //*[@class='cart-count']'.
+[2026-03-10 19:10:19.302] [VRB] [BaseComponent.EvaluateElementBoolFunction] 'Simple' with locator 'By.XPath: //*[@class='cart-count']' matching the condition not found.
+[2026-03-10 19:10:19.303] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //*[@class='cart-count']'.
+[2026-03-10 19:10:19.325] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: //*[@class='cart-count']' is '1'.
+[2026-03-10 19:10:19.326] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'Simple' with locator 'By.XPath: //button[@class='checkout-button']'.
+[2026-03-10 19:10:19.342] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsClicked>b__60_0' on 'Simple' with locator 'By.XPath: //button[@class='checkout-button']'.
+[2026-03-10 19:10:19.356] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsClicked>b__60_1' on 'Simple' with locator 'By.XPath: //button[@class='checkout-button']'.
+[2026-03-10 19:10:19.459] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 19:10:19.485] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsCleared>b__5_1' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 19:10:19.515] [VRB] [TextInput.SendKeys] Text to be filled into 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']' is 'John'.
+[2026-03-10 19:10:19.516] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 19:10:19.535] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsSendKeys>b__9_1' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 19:10:19.594] [VRB] [WebDriverWaitExtensions.GetCustomWait] Initialize custom wait with timeout '60(s)' and interval '500(ms)'
+[2026-03-10 19:10:19.595] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetDomProperty>b__38_1' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 19:10:19.609] [VRB] [BaseComponent.GetDomProperty] Value of the DOM property 'value' of the 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']' is 'John'.
+[2026-03-10 19:10:19.609] [VRB] [TextInput.GetValue] Value of the 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']' is 'John'.
+[2026-03-10 19:10:19.610] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='lastName']'.
+[2026-03-10 19:10:19.632] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsCleared>b__5_1' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='lastName']'.
+[2026-03-10 19:10:19.652] [VRB] [TextInput.SendKeys] Text to be filled into 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='lastName']' is 'Doe'.
+[2026-03-10 19:10:19.653] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='lastName']'.
+[2026-03-10 19:10:19.671] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsSendKeys>b__9_1' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='lastName']'.
+[2026-03-10 19:10:19.713] [VRB] [WebDriverWaitExtensions.GetCustomWait] Initialize custom wait with timeout '60(s)' and interval '500(ms)'
+[2026-03-10 19:10:19.713] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetDomProperty>b__38_1' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='lastName']'.
+[2026-03-10 19:10:19.727] [VRB] [BaseComponent.GetDomProperty] Value of the DOM property 'value' of the 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='lastName']' is 'Doe'.
+[2026-03-10 19:10:19.727] [VRB] [TextInput.GetValue] Value of the 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='lastName']' is 'Doe'.
+[2026-03-10 19:10:19.727] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='street']'.
+[2026-03-10 19:10:19.750] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsCleared>b__5_1' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='street']'.
+[2026-03-10 19:10:19.771] [VRB] [TextInput.SendKeys] Text to be filled into 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='street']' is '123 Main St'.
+[2026-03-10 19:10:19.771] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='street']'.
+[2026-03-10 19:10:19.791] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsSendKeys>b__9_1' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='street']'.
+[2026-03-10 19:10:19.842] [VRB] [WebDriverWaitExtensions.GetCustomWait] Initialize custom wait with timeout '60(s)' and interval '500(ms)'
+[2026-03-10 19:10:19.843] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetDomProperty>b__38_1' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='street']'.
+[2026-03-10 19:10:19.854] [VRB] [BaseComponent.GetDomProperty] Value of the DOM property 'value' of the 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='street']' is '123 Main St'.
+[2026-03-10 19:10:19.855] [VRB] [TextInput.GetValue] Value of the 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='street']' is '123 Main St'.
+[2026-03-10 19:10:19.856] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='city']'.
+[2026-03-10 19:10:19.878] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsCleared>b__5_1' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='city']'.
+[2026-03-10 19:10:19.899] [VRB] [TextInput.SendKeys] Text to be filled into 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='city']' is 'Anytown'.
+[2026-03-10 19:10:19.900] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='city']'.
+[2026-03-10 19:10:19.918] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsSendKeys>b__9_1' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='city']'.
+[2026-03-10 19:10:19.969] [VRB] [WebDriverWaitExtensions.GetCustomWait] Initialize custom wait with timeout '60(s)' and interval '500(ms)'
+[2026-03-10 19:10:19.969] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetDomProperty>b__38_1' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='city']'.
+[2026-03-10 19:10:19.979] [VRB] [BaseComponent.GetDomProperty] Value of the DOM property 'value' of the 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='city']' is 'Anytown'.
+[2026-03-10 19:10:19.980] [VRB] [TextInput.GetValue] Value of the 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='city']' is 'Anytown'.
+[2026-03-10 19:10:19.980] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='zipCode']'.
+[2026-03-10 19:10:20.003] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsCleared>b__5_1' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='zipCode']'.
+[2026-03-10 19:10:20.025] [VRB] [TextInput.SendKeys] Text to be filled into 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='zipCode']' is '12345'.
+[2026-03-10 19:10:20.025] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='zipCode']'.
+[2026-03-10 19:10:20.044] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsSendKeys>b__9_1' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='zipCode']'.
+[2026-03-10 19:10:20.087] [VRB] [WebDriverWaitExtensions.GetCustomWait] Initialize custom wait with timeout '60(s)' and interval '500(ms)'
+[2026-03-10 19:10:20.088] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetDomProperty>b__38_1' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='zipCode']'.
+[2026-03-10 19:10:20.101] [VRB] [BaseComponent.GetDomProperty] Value of the DOM property 'value' of the 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='zipCode']' is '12345'.
+[2026-03-10 19:10:20.101] [VRB] [TextInput.GetValue] Value of the 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='zipCode']' is '12345'.
+[2026-03-10 19:10:20.102] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='email']'.
+[2026-03-10 19:10:20.124] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsCleared>b__5_1' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='email']'.
+[2026-03-10 19:10:20.144] [VRB] [TextInput.SendKeys] Text to be filled into 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='email']' is 'john.doe@example.com'.
+[2026-03-10 19:10:20.144] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='email']'.
+[2026-03-10 19:10:20.164] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsSendKeys>b__9_1' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='email']'.
+[2026-03-10 19:10:20.236] [VRB] [WebDriverWaitExtensions.GetCustomWait] Initialize custom wait with timeout '60(s)' and interval '500(ms)'
+[2026-03-10 19:10:20.237] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetDomProperty>b__38_1' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='email']'.
+[2026-03-10 19:10:20.251] [VRB] [BaseComponent.GetDomProperty] Value of the DOM property 'value' of the 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='email']' is 'john.doe@example.com'.
+[2026-03-10 19:10:20.251] [VRB] [TextInput.GetValue] Value of the 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='email']' is 'john.doe@example.com'.
+[2026-03-10 19:10:29.882] [VRB] [TextInput.SendKeys] Text to be filled into 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='phone-number']' is '123456789'.
+[2026-03-10 19:10:29.883] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='phone-number']'.
+[2026-03-10 19:10:29.950] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 19:10:30.462] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='phone-number']'.
+[2026-03-10 19:10:30.501] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 19:10:31.013] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='phone-number']'.
+[2026-03-10 19:10:31.057] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 19:10:31.561] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='phone-number']'.
+[2026-03-10 19:10:31.605] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 19:10:32.108] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='phone-number']'.
+[2026-03-10 19:10:32.154] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 19:10:32.661] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='phone-number']'.
+[2026-03-10 19:10:32.696] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 19:10:33.202] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='phone-number']'.
+[2026-03-10 19:10:33.235] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 19:10:33.741] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='phone-number']'.
+[2026-03-10 19:10:33.774] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 19:10:34.288] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='phone-number']'.
+[2026-03-10 19:10:34.321] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 19:10:34.823] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='phone-number']'.
+[2026-03-10 19:10:34.856] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 19:10:35.359] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='phone-number']'.
+[2026-03-10 19:10:35.393] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 19:10:35.905] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='phone-number']'.
+[2026-03-10 19:10:35.938] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 19:10:36.453] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='phone-number']'.
+[2026-03-10 19:10:36.486] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 19:10:36.991] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='phone-number']'.
+[2026-03-10 19:10:37.023] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 19:10:37.539] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='phone-number']'.
+[2026-03-10 19:10:37.574] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 19:10:38.089] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='phone-number']'.
+[2026-03-10 19:10:38.137] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 19:10:38.654] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='phone-number']'.
+[2026-03-10 19:10:38.693] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 19:10:39.198] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='phone-number']'.
+[2026-03-10 19:10:39.257] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 19:10:39.773] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='phone-number']'.
+[2026-03-10 19:10:39.798] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 19:10:40.305] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='phone-number']'.
+[2026-03-10 19:10:40.322] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 19:10:40.837] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='phone-number']'.
+[2026-03-10 19:10:40.853] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 19:10:41.368] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='phone-number']'.
+[2026-03-10 19:10:41.388] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 19:10:41.891] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='phone-number']'.
+[2026-03-10 19:10:41.908] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 19:10:42.413] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='phone-number']'.
+[2026-03-10 19:10:42.429] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 19:10:42.936] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='phone-number']'.
+[2026-03-10 19:10:42.949] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 19:10:43.465] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='phone-number']'.
+[2026-03-10 19:10:43.483] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 19:10:43.985] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='phone-number']'.
+[2026-03-10 19:10:44.002] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 19:10:44.506] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='phone-number']'.
+[2026-03-10 19:10:44.548] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 19:10:45.062] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='phone-number']'.
+[2026-03-10 19:10:45.082] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.

@@ -1,0 +1,9 @@
+[2026-03-10 17:38:11.536] [ERR] Error Message:
+  Product name does not match
+Assert.That(productDetail.ProductInfoForm.GetName(), Is.EqualTo("Camera M25"))
+  Expected string length 10 but was 16. Strings differ at index 0.
+  Expected: "Camera M25"
+  But was:  "DSLR Camera X200"
+  -----------^
+[2026-03-10 17:38:11.536] [ERR] Stack Trace:
+   at UI.Template.Tests.TC4.AddProductToAdminTest() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\TC4.cs:line 34

@@ -1,0 +1,42 @@
+[2026-03-08 20:40:03.418] [INF] [LogFactory.InitializeLogger] ####################################################################################################
+[2026-03-08 20:40:03.419] [INF] [BaseTest.BaseSetUp] EXECUTE TEST "UI.Template.Tests.CartTest.AddProductToCartTest"
+[2026-03-08 20:40:03.429] [INF] [BaseTest.LogTestProperties] Test Properties: {
+  LevelOfParallelism: 1
+  ParallelScope: Fixtures
+}
+[2026-03-08 20:40:03.430] [INF] [BaseTest.BaseSetUp] TEST START
+[2026-03-08 20:40:03.431] [INF] [WebDriverFactory.InitializeWebDriver] Initializing a WebDriver session
+[2026-03-08 20:40:04.469] [VRB] [WebDriverFactory.InitializeWebDriver] New created WebDriver session is '32c6e22ce4e4ef8ffc66ae045d0aae7e'
+[2026-03-08 20:40:04.473] [VRB] [BasePage.Open] Opening page https://eshop-demo-766125429055.europe-central2.run.app/ with user authorization.
+[2026-03-08 20:40:06.634] [INF] [BaseTest.BaseTearDown] TEST END
+[2026-03-08 20:40:06.639] [INF] [BaseTest.BaseTearDown] Test Result: Failed
+[2026-03-08 20:40:06.649] [FTL] [IWebDriverExtensions.SavePageSource] Cannot download the page source.
+OpenQA.Selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.160)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.get_PageSource()
+   at UI.Template.Framework.Extensions.IWebDriverExtensions.SavePageSource(IWebDriver webDriver, String optionalFileNameSuffix) in c:\Users\honza\Downloads\TestTemplate\src\UI.Template\Framework\Extensions\IWebDriverExtensions.cs:line 255
+[2026-03-08 20:40:06.677] [INF] [IWebDriverExtensions.SaveLogs] Saving 'Browser' logs to '../../../Logs\2026-03-08\run_at_20-40-03\CartTest\AddProductToCartTest_0-1001\Browser_error_20-40-06-652.log'
+[2026-03-08 20:40:06.691] [INF] [BaseTest.CloseDriver] Trying to quit WebDriver session '32c6e22ce4e4ef8ffc66ae045d0aae7e'
+[2026-03-08 20:40:06.856] [ERR] [BaseTest.BaseTearDown] Error Message:
+OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.160)
+[2026-03-08 20:40:06.856] [ERR] [BaseTest.BaseTearDown] Stack Trace:
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.get_Url()
+   at UI.Template.Globals.WaitForReady() in c:\Users\honza\Downloads\TestTemplate\src\UI.Template\Globals.cs:line 159
+   at UI.Template.Framework.Extensions.IWebDriverExtensions.WaitForReady(IWebDriver _) in c:\Users\honza\Downloads\TestTemplate\src\UI.Template\Framework\Extensions\IWebDriverExtensions.cs:line 58
+   at UI.Template.Pages.BasePage.WaitForReady() in c:\Users\honza\Downloads\TestTemplate\src\UI.Template\Pages\BasePage.cs:line 184
+   at UI.Template.Pages.BasePage.Open(Uri url) in c:\Users\honza\Downloads\TestTemplate\src\UI.Template\Pages\BasePage.cs:line 105
+   at UI.Template.Pages.BasePage.Open() in c:\Users\honza\Downloads\TestTemplate\src\UI.Template\Pages\BasePage.cs:line 89
+   at UI.Template.Tests.CartTest.AddProductToCartTest() in c:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\CartTest.cs:line 14
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+[2026-03-08 20:40:06.860] [INF] [LogFactory.CloseLogger] Closing the logger...
+[2026-03-08 20:40:06.860] [INF] [LogFactory.CloseLogger] ####################################################################################################

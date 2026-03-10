@@ -1,0 +1,27 @@
+[2026-03-10 14:19:01.129] [INF] ####################################################################################################
+[2026-03-10 14:19:01.129] [INF] EXECUTE TEST "UI.Template.Tests.TC4.AddProductToAdminTest"
+[2026-03-10 14:19:01.135] [INF] Test Properties: {
+  LevelOfParallelism: 1
+  ParallelScope: Fixtures
+}
+[2026-03-10 14:19:01.137] [INF] TEST START
+[2026-03-10 14:19:01.147] [INF] Initializing a WebDriver session
+[2026-03-10 14:19:10.712] [INF] Waiting for the method '<IsDisplayed>b__4_0' to be true.
+[2026-03-10 14:19:10.838] [INF] Condition '<IsDisplayed>b__4_0' is fulfilled
+[2026-03-10 14:19:10.853] [INF] Waiting for the method '<GetProductCards>b__0' to be true.
+[2026-03-10 14:19:10.865] [INF] Condition '<GetProductCards>b__0' is fulfilled
+[2026-03-10 14:19:19.477] [INF] TEST END
+[2026-03-10 14:19:19.484] [INF] Test Result: Failed
+[2026-03-10 14:19:19.496] [INF] Saving page source to: '../../../Logs\2026-03-10\run_at_14-19-00\TC4\AddProductToAdminTest_0-1009\page_error_14-19-19-495.html'
+[2026-03-10 14:19:19.504] [INF] Saving 'Browser' logs to '../../../Logs\2026-03-10\run_at_14-19-00\TC4\AddProductToAdminTest_0-1009\Browser_error_14-19-19-497.log'
+[2026-03-10 14:19:19.676] [INF] Saving screenshot to: '../../../Logs\2026-03-10\run_at_14-19-00\TC4\AddProductToAdminTest_0-1009\screenshot_error_14-19-19-505.png'
+[2026-03-10 14:19:19.677] [INF] Trying to quit WebDriver session '5f0f2fb51d189075d15fe0c5c96e05c9'
+[2026-03-10 14:19:19.838] [ERR] Error Message:
+OpenQA.Selenium.NoSuchElementException : Product "" not found in category "Cameras".; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+[2026-03-10 14:19:19.839] [ERR] Stack Trace:
+   at UI.Template.Pages.HomePage.OpenProductByNameFromCategory(String category, String product) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Pages\HomePage.cs:line 46
+   at UI.Template.Tests.TC4.AddProductToAdminTest() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\TC4.cs:line 21
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+[2026-03-10 14:19:19.842] [INF] Closing the logger...
+[2026-03-10 14:19:19.843] [INF] ####################################################################################################

@@ -1,0 +1,29 @@
+[2026-03-10 17:18:29.058] [INF] ####################################################################################################
+[2026-03-10 17:18:29.059] [INF] EXECUTE TEST "UI.Template.Tests.TC4.AddProductToAdminTest"
+[2026-03-10 17:18:29.069] [INF] Test Properties: {
+  LevelOfParallelism: 1
+  ParallelScope: Fixtures
+}
+[2026-03-10 17:18:29.069] [INF] TEST START
+[2026-03-10 17:18:29.070] [INF] Initializing a WebDriver session
+[2026-03-10 17:18:37.390] [INF] Waiting for the method '<IsDisplayed>b__4_0' to be true.
+[2026-03-10 17:18:37.587] [INF] Condition '<IsDisplayed>b__4_0' is fulfilled
+[2026-03-10 17:18:37.607] [INF] Waiting for the method '<GetProductCards>b__0' to be true.
+[2026-03-10 17:18:37.627] [INF] Condition '<GetProductCards>b__0' is fulfilled
+[2026-03-10 17:19:30.886] [INF] TEST END
+[2026-03-10 17:19:30.903] [INF] Test Result: Failed
+[2026-03-10 17:19:30.926] [INF] Saving page source to: '../../../Logs\2026-03-10\run_at_17-18-28\TC4\AddProductToAdminTest_0-1009\page_error_17-19-30-924.html'
+[2026-03-10 17:19:30.946] [INF] Saving 'Browser' logs to '../../../Logs\2026-03-10\run_at_17-18-28\TC4\AddProductToAdminTest_0-1009\Browser_error_17-19-30-929.log'
+[2026-03-10 17:19:31.228] [INF] Saving screenshot to: '../../../Logs\2026-03-10\run_at_17-18-28\TC4\AddProductToAdminTest_0-1009\screenshot_error_17-19-30-949.png'
+[2026-03-10 17:19:31.230] [INF] Trying to quit WebDriver session '85c1f909725a2f3bb79a73535e639ee3'
+[2026-03-10 17:19:31.692] [ERR] Error Message:
+  The price of product in the basket is not same as in test data
+Assert.That(productPrice, Is.EqualTo("700"))
+  Expected string length 3 but was 12. Strings differ at index 0.
+  Expected: "700"
+  But was:  "$ 700.00 × 1"
+  -----------^
+[2026-03-10 17:19:31.694] [ERR] Stack Trace:
+   at UI.Template.Tests.TC4.AddProductToAdminTest() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\TC4.cs:line 34
+[2026-03-10 17:19:31.702] [INF] Closing the logger...
+[2026-03-10 17:19:31.703] [INF] ####################################################################################################

@@ -1,0 +1,359 @@
+[2026-03-10 20:35:05.066] [INF] [LogFactory.InitializeLogger] ####################################################################################################
+[2026-03-10 20:35:05.069] [INF] [BaseTest.BaseSetUp] EXECUTE TEST "UI.Template.Tests.TC4.AddProductToAdminTest"
+[2026-03-10 20:35:05.113] [INF] [BaseTest.LogTestProperties] Test Properties: {
+  LevelOfParallelism: 1
+  ParallelScope: Fixtures
+}
+[2026-03-10 20:35:05.113] [INF] [BaseTest.BaseSetUp] TEST START
+[2026-03-10 20:35:05.115] [INF] [WebDriverFactory.InitializeWebDriver] Initializing a WebDriver session
+[2026-03-10 20:35:06.327] [VRB] [WebDriverFactory.InitializeWebDriver] New created WebDriver session is 'c4b7c7577a1185e0167822314164c00d'
+[2026-03-10 20:35:06.333] [VRB] [BasePage.Open] Opening page https://eshop-demo-766125429055.europe-central2.run.app/ with user authorization.
+[2026-03-10 20:35:11.851] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-10 20:35:11.858] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsClicked>b__60_0' on 'Simple' with locator 'By.XPath: //li[contains (text(),'Monitors')]'.
+[2026-03-10 20:35:11.916] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsClicked>b__60_1' on 'Simple' with locator 'By.XPath: //li[contains (text(),'Monitors')]'.
+[2026-03-10 20:35:12.221] [INF] [WebDriverWaitExtensions.TryWaitWithCondition] Waiting for the method '<IsDisplayed>b__4_0' to be true.
+[2026-03-10 20:35:12.226] [VRB] [WebDriverWaitExtensions.GetCustomWait] Initialize custom wait with timeout '5(s)' and interval '500(ms)'
+[2026-03-10 20:35:12.228] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CategoryContainer' with locator 'By.XPath: //*[@class='categories-sidebar']'.
+[2026-03-10 20:35:12.326] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'Simple' with locator 'By.XPath: //ul[@class='category-list']'.
+[2026-03-10 20:35:12.383] [INF] [WebDriverWaitExtensions.TryWaitWithCondition] Condition '<IsDisplayed>b__4_0' is fulfilled
+[2026-03-10 20:35:12.412] [INF] [WebDriverWaitExtensions.TryWaitWithCondition] Waiting for the method '<GetProductCards>b__0' to be true.
+[2026-03-10 20:35:12.413] [VRB] [WebDriverWaitExtensions.GetCustomWait] Initialize custom wait with timeout '5(s)' and interval '500(ms)'
+[2026-03-10 20:35:12.441] [INF] [WebDriverWaitExtensions.TryWaitWithCondition] Condition '<GetProductCards>b__0' is fulfilled
+[2026-03-10 20:35:12.464] [VRB] [BaseComponent.ScrollTo] Scrolling to 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-10 20:35:12.465] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<ScrollTo>b__55_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-10 20:35:12.483] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<ScrollTo>b__55_1' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-10 20:35:12.508] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-10 20:35:12.508] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-10 20:35:12.532] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CheckoutCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-10 20:35:12.564] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//a[@class='product-link']//h3'.
+[2026-03-10 20:35:12.617] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//a[@class='product-link']//h3' is '4K LED Monitor'.
+[2026-03-10 20:35:12.621] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsClicked>b__60_0' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//a[@class='product-link']//h3'.
+[2026-03-10 20:35:12.645] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsClicked>b__60_1' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//a[@class='product-link']//h3'.
+[2026-03-10 20:35:12.817] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-10 20:35:12.819] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsClicked>b__60_0' on 'Button' with locator 'By.XPath: //div[@class='product-info']//button[@class='add-to-cart']'.
+[2026-03-10 20:35:12.850] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsClicked>b__60_1' on 'Button' with locator 'By.XPath: //div[@class='product-info']//button[@class='add-to-cart']'.
+[2026-03-10 20:35:12.956] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-10 20:35:12.957] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsNotDisplayed>b__30_0' on 'Simple' with locator 'By.XPath: //div[@class='cart-items']'.
+[2026-03-10 20:35:13.014] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 20:35:13.015] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsClicked>b__60_0' on 'Simple' with locator 'By.XPath: //*[@class='cart-widget']'.
+[2026-03-10 20:35:13.039] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsClicked>b__60_1' on 'Simple' with locator 'By.XPath: //*[@class='cart-widget']'.
+[2026-03-10 20:35:13.114] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'Simple' with locator 'By.XPath: //button[@class='checkout-button']'.
+[2026-03-10 20:35:13.153] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsClicked>b__60_0' on 'Simple' with locator 'By.XPath: //button[@class='checkout-button']'.
+[2026-03-10 20:35:13.173] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsClicked>b__60_1' on 'Simple' with locator 'By.XPath: //button[@class='checkout-button']'.
+[2026-03-10 20:35:13.274] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:35:13.354] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsCleared>b__5_1' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:35:13.400] [VRB] [TextInput.SendKeys] Text to be filled into 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']' is 'John'.
+[2026-03-10 20:35:13.402] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:35:13.430] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsSendKeys>b__9_1' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:35:13.525] [VRB] [WebDriverWaitExtensions.GetCustomWait] Initialize custom wait with timeout '60(s)' and interval '500(ms)'
+[2026-03-10 20:35:13.525] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetDomProperty>b__38_1' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']'.
+[2026-03-10 20:35:13.545] [VRB] [BaseComponent.GetDomProperty] Value of the DOM property 'value' of the 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']' is 'John'.
+[2026-03-10 20:35:13.546] [VRB] [TextInput.GetValue] Value of the 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='firstName']' is 'John'.
+[2026-03-10 20:35:13.547] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='lastName']'.
+[2026-03-10 20:35:13.580] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsCleared>b__5_1' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='lastName']'.
+[2026-03-10 20:35:13.613] [VRB] [TextInput.SendKeys] Text to be filled into 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='lastName']' is 'Doe'.
+[2026-03-10 20:35:13.613] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='lastName']'.
+[2026-03-10 20:35:13.642] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsSendKeys>b__9_1' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='lastName']'.
+[2026-03-10 20:35:13.711] [VRB] [WebDriverWaitExtensions.GetCustomWait] Initialize custom wait with timeout '60(s)' and interval '500(ms)'
+[2026-03-10 20:35:13.712] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetDomProperty>b__38_1' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='lastName']'.
+[2026-03-10 20:35:13.730] [VRB] [BaseComponent.GetDomProperty] Value of the DOM property 'value' of the 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='lastName']' is 'Doe'.
+[2026-03-10 20:35:13.731] [VRB] [TextInput.GetValue] Value of the 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='lastName']' is 'Doe'.
+[2026-03-10 20:35:13.731] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='street']'.
+[2026-03-10 20:35:13.766] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsCleared>b__5_1' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='street']'.
+[2026-03-10 20:35:13.801] [VRB] [TextInput.SendKeys] Text to be filled into 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='street']' is 'Hlavní 1'.
+[2026-03-10 20:35:13.802] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='street']'.
+[2026-03-10 20:35:13.834] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsSendKeys>b__9_1' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='street']'.
+[2026-03-10 20:35:13.919] [VRB] [WebDriverWaitExtensions.GetCustomWait] Initialize custom wait with timeout '60(s)' and interval '500(ms)'
+[2026-03-10 20:35:13.919] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetDomProperty>b__38_1' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='street']'.
+[2026-03-10 20:35:13.938] [VRB] [BaseComponent.GetDomProperty] Value of the DOM property 'value' of the 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='street']' is 'Hlavní 1'.
+[2026-03-10 20:35:13.939] [VRB] [TextInput.GetValue] Value of the 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='street']' is 'Hlavní 1'.
+[2026-03-10 20:35:13.939] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='city']'.
+[2026-03-10 20:35:13.972] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsCleared>b__5_1' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='city']'.
+[2026-03-10 20:35:14.004] [VRB] [TextInput.SendKeys] Text to be filled into 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='city']' is 'Praha'.
+[2026-03-10 20:35:14.005] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='city']'.
+[2026-03-10 20:35:14.032] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsSendKeys>b__9_1' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='city']'.
+[2026-03-10 20:35:14.106] [VRB] [WebDriverWaitExtensions.GetCustomWait] Initialize custom wait with timeout '60(s)' and interval '500(ms)'
+[2026-03-10 20:35:14.106] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetDomProperty>b__38_1' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='city']'.
+[2026-03-10 20:35:14.124] [VRB] [BaseComponent.GetDomProperty] Value of the DOM property 'value' of the 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='city']' is 'Praha'.
+[2026-03-10 20:35:14.124] [VRB] [TextInput.GetValue] Value of the 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='city']' is 'Praha'.
+[2026-03-10 20:35:14.124] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='zipCode']'.
+[2026-03-10 20:35:14.156] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsCleared>b__5_1' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='zipCode']'.
+[2026-03-10 20:35:14.187] [VRB] [TextInput.SendKeys] Text to be filled into 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='zipCode']' is '12000'.
+[2026-03-10 20:35:14.188] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='zipCode']'.
+[2026-03-10 20:35:14.215] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsSendKeys>b__9_1' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='zipCode']'.
+[2026-03-10 20:35:14.290] [VRB] [WebDriverWaitExtensions.GetCustomWait] Initialize custom wait with timeout '60(s)' and interval '500(ms)'
+[2026-03-10 20:35:14.291] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetDomProperty>b__38_1' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='zipCode']'.
+[2026-03-10 20:35:14.308] [VRB] [BaseComponent.GetDomProperty] Value of the DOM property 'value' of the 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='zipCode']' is '12000'.
+[2026-03-10 20:35:14.308] [VRB] [TextInput.GetValue] Value of the 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='zipCode']' is '12000'.
+[2026-03-10 20:35:14.308] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='email']'.
+[2026-03-10 20:35:14.344] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsCleared>b__5_1' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='email']'.
+[2026-03-10 20:35:14.377] [VRB] [TextInput.SendKeys] Text to be filled into 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='email']' is 'john.doe@example.com'.
+[2026-03-10 20:35:14.377] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='email']'.
+[2026-03-10 20:35:14.405] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsSendKeys>b__9_1' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='email']'.
+[2026-03-10 20:35:14.501] [VRB] [WebDriverWaitExtensions.GetCustomWait] Initialize custom wait with timeout '60(s)' and interval '500(ms)'
+[2026-03-10 20:35:14.501] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetDomProperty>b__38_1' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='email']'.
+[2026-03-10 20:35:14.518] [VRB] [BaseComponent.GetDomProperty] Value of the DOM property 'value' of the 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='email']' is 'john.doe@example.com'.
+[2026-03-10 20:35:14.518] [VRB] [TextInput.GetValue] Value of the 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='email']' is 'john.doe@example.com'.
+[2026-03-10 20:35:14.519] [VRB] [TextInput.SendKeys] Text to be filled into 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='phoneNumber']' is '123456789'.
+[2026-03-10 20:35:14.519] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='phoneNumber']'.
+[2026-03-10 20:35:14.551] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsSendKeys>b__9_1' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='phoneNumber']'.
+[2026-03-10 20:35:14.629] [VRB] [WebDriverWaitExtensions.GetCustomWait] Initialize custom wait with timeout '60(s)' and interval '500(ms)'
+[2026-03-10 20:35:14.629] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetDomProperty>b__38_1' on 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='phoneNumber']'.
+[2026-03-10 20:35:14.649] [VRB] [BaseComponent.GetDomProperty] Value of the DOM property 'value' of the 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='phoneNumber']' is '123456789'.
+[2026-03-10 20:35:14.649] [VRB] [TextInput.GetValue] Value of the 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='phoneNumber']' is '123456789'.
+[2026-03-10 20:35:14.659] [VRB] [ISearchContextExtensions.WaitForElement] Waiting for presence of the element with by 'By.XPath: //div[@class='checkout-form']//*[@id='paymentMethod']'
+[2026-03-10 20:35:14.662] [VRB] [ISearchContextExtensions.WaitForElement] Wait call 'OpenQA.Selenium.Chrome.ChromeDriver' from 'OpenQA.Selenium.Chrome.ChromeDriver' up to 00:01:00s
+[2026-03-10 20:35:14.676] [VRB] [ISearchContextExtensions.WaitForElement] Element with by 'By.XPath: //div[@class='checkout-form']//*[@id='paymentMethod']' was found
+[2026-03-10 20:35:14.767] [VRB] [ISearchContextExtensions.WaitForElement] Waiting for presence of the element with by 'By.XPath: //div[@class='checkout-form']//*[@id='paymentMethod']'
+[2026-03-10 20:35:14.767] [VRB] [ISearchContextExtensions.WaitForElement] Wait call 'OpenQA.Selenium.Chrome.ChromeDriver' from 'OpenQA.Selenium.Chrome.ChromeDriver' up to 00:01:00s
+[2026-03-10 20:35:14.776] [VRB] [ISearchContextExtensions.WaitForElement] Element with by 'By.XPath: //div[@class='checkout-form']//*[@id='paymentMethod']' was found
+[2026-03-10 20:35:14.847] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsClicked>b__60_0' on 'Button' with locator 'By.XPath: //div[@class='checkout-form']//button[@class='pay-button']'.
+[2026-03-10 20:35:14.870] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsClicked>b__60_1' on 'Button' with locator 'By.XPath: //div[@class='checkout-form']//button[@class='pay-button']'.
+[2026-03-10 20:35:14.965] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-10 20:35:45.868] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:35:45.902] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:35:46.417] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:35:46.429] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:35:46.945] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:35:46.958] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:35:47.462] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:35:47.475] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:35:47.983] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:35:48.002] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:35:48.507] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:35:48.526] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:35:49.037] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:35:49.058] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:35:49.572] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:35:49.584] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:35:50.096] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:35:50.116] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:35:50.627] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:35:50.645] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:35:51.156] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:35:51.177] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:35:51.686] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:35:51.705] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:35:52.210] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:35:52.223] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:35:52.734] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:35:52.752] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:35:53.262] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:35:53.280] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:35:53.787] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:35:53.808] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:35:54.317] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:35:54.330] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:35:54.833] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:35:54.974] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:35:55.479] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:35:55.499] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:35:56.006] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:35:56.035] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:35:56.550] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:35:56.577] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:35:57.081] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:35:57.111] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:35:57.620] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:35:57.647] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:35:58.150] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:35:58.189] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:35:58.711] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:35:58.751] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:35:59.253] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:35:59.280] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:35:59.791] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:35:59.813] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:00.325] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:00.344] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:00.854] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:00.880] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:01.385] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:01.416] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:01.925] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:01.952] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:02.469] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:02.497] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:03.001] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:03.031] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:03.544] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:03.564] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:04.071] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:04.092] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:04.600] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:04.635] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:05.154] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:05.183] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:05.692] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:05.711] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:06.214] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:06.233] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:06.743] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:06.772] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:07.288] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:07.317] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:07.829] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:07.856] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:08.357] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:08.376] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:08.889] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:08.919] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:09.433] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:09.460] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:09.965] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:09.984] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:10.497] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:10.523] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:11.026] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:11.056] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:11.557] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:11.585] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:12.094] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:12.122] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:12.624] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:12.652] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:13.155] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:13.232] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:13.741] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:13.769] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:14.273] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:14.305] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:14.815] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:14.845] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:15.350] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:15.379] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:15.884] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:15.912] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:16.415] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:16.443] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:16.946] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:16.973] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:17.483] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:17.511] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:18.013] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:18.031] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:18.534] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:18.560] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:19.070] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:19.098] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:19.614] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:19.643] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:20.151] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:20.220] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:20.727] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:20.746] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:21.249] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:21.269] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:21.777] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:21.801] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:22.310] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:22.337] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:22.841] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:22.862] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:23.372] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:23.392] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:23.907] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:23.936] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:24.440] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:24.478] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:24.988] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:25.010] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:25.520] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:25.549] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:26.055] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:26.084] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:26.594] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:26.642] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:27.145] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:27.177] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:27.684] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:27.708] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:28.217] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:28.241] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:28.753] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:28.773] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:29.278] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:29.307] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:29.816] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:29.845] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:30.350] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:30.377] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:30.885] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:30.912] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:31.416] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:31.442] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:31.947] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:31.978] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:32.482] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:32.511] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:33.027] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:33.057] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:33.565] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:33.598] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:34.107] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:34.138] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:34.645] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:34.674] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:35.179] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:35.209] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:35.715] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:35.743] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:36.247] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:36.275] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:36.780] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:36.807] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:37.309] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:37.331] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:37.836] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:37.867] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:38.373] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:38.392] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:38.906] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:38.926] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:39.440] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:39.456] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:39.958] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:39.973] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:40.479] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:40.496] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:41.004] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:41.019] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:41.535] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:41.551] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:42.067] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:42.085] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:42.591] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:42.606] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:43.119] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:43.135] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:43.645] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:43.662] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:44.168] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:44.194] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:44.699] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:44.715] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:45.220] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:45.235] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:45.750] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:45.766] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:46.273] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //span[@id='order-total-value']'.
+[2026-03-10 20:36:46.289] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:36:46.299] [INF] [BaseTest.BaseTearDown] TEST END
+[2026-03-10 20:36:46.302] [INF] [BaseTest.BaseTearDown] Test Result: Failed
+[2026-03-10 20:36:46.317] [INF] [IWebDriverExtensions.SavePageSource] Saving page source to: '../../../Logs\2026-03-10\run_at_20-35-04\TC4\AddProductToAdminTest_0-1009\page_error_20-36-46-315.html'
+[2026-03-10 20:36:46.327] [INF] [IWebDriverExtensions.SaveLogs] Saving 'Browser' logs to '../../../Logs\2026-03-10\run_at_20-35-04\TC4\AddProductToAdminTest_0-1009\Browser_error_20-36-46-318.log'
+[2026-03-10 20:36:46.409] [INF] [IWebDriverExtensions.TakeScreenshot] Saving screenshot to: '../../../Logs\2026-03-10\run_at_20-35-04\TC4\AddProductToAdminTest_0-1009\screenshot_error_20-36-46-328.png'
+[2026-03-10 20:36:46.410] [INF] [BaseTest.CloseDriver] Trying to quit WebDriver session 'c4b7c7577a1185e0167822314164c00d'
+[2026-03-10 20:36:46.662] [ERR] [BaseTest.BaseTearDown] Error Message:
+OpenQA.Selenium.WebDriverTimeoutException : Timed out after 60 seconds: Couldn't get text of the 'Simple' with locator 'By.XPath: //span[@id='order-total-value']' during the timeout.
+[2026-03-10 20:36:46.663] [ERR] [BaseTest.BaseTearDown] Stack Trace:
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at UI.Template.Components.BaseComponent.GetText() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\BaseComponent.cs:line 294
+   at UI.Template.Components.Containers.CheckoutFormContainer.GetOrderTotal(String orderTotal) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\Containers\CheckoutFormContainer.cs:line 138
+   at UI.Template.Tests.TC4.AddProductToAdminTest() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\TC4.cs:line 67
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+[2026-03-10 20:36:46.666] [INF] [LogFactory.CloseLogger] Closing the logger...
+[2026-03-10 20:36:46.667] [INF] [LogFactory.CloseLogger] ####################################################################################################

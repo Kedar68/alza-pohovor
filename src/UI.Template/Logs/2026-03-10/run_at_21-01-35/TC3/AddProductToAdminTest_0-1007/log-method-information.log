@@ -1,0 +1,17 @@
+[2026-03-10 21:01:35.330] [INF] ####################################################################################################
+[2026-03-10 21:01:35.330] [INF] EXECUTE TEST "UI.Template.Tests.TC3.AddProductToAdminTest"
+[2026-03-10 21:01:35.336] [INF] Test Properties: {
+  LevelOfParallelism: 1
+  ParallelScope: Fixtures
+}
+[2026-03-10 21:01:35.337] [INF] TEST START
+[2026-03-10 21:01:35.338] [INF] Initializing a WebDriver session
+[2026-03-10 21:01:43.225] [INF] Waiting for the method '<IsDisplayed>b__4_0' to be true.
+[2026-03-10 21:01:43.352] [INF] Condition '<IsDisplayed>b__4_0' is fulfilled
+[2026-03-10 21:01:43.353] [INF] Waiting for the method '<GetProductCards>b__0' to be true.
+[2026-03-10 21:01:43.364] [INF] Condition '<GetProductCards>b__0' is fulfilled
+[2026-03-10 21:01:43.697] [INF] TEST END
+[2026-03-10 21:01:43.699] [INF] Test Result: Passed
+[2026-03-10 21:01:43.701] [INF] Trying to quit WebDriver session '0630525bb03869e912ebb51714a380f2'
+[2026-03-10 21:01:43.859] [INF] Closing the logger...
+[2026-03-10 21:01:43.860] [INF] ####################################################################################################

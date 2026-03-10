@@ -1,0 +1,27 @@
+[2026-03-10 12:04:37.071] [INF] ####################################################################################################
+[2026-03-10 12:04:37.072] [INF] EXECUTE TEST "UI.Template.Tests.CartTest.AddProductToCartTest"
+[2026-03-10 12:04:37.090] [INF] Test Properties: {
+  LevelOfParallelism: 1
+  ParallelScope: Fixtures
+}
+[2026-03-10 12:04:37.090] [INF] TEST START
+[2026-03-10 12:04:37.094] [INF] Initializing a WebDriver session
+[2026-03-10 12:04:48.965] [INF] Waiting for the method '<IsDisplayed>b__4_0' to be true.
+[2026-03-10 12:04:49.330] [INF] Condition '<IsDisplayed>b__4_0' is fulfilled
+[2026-03-10 12:04:49.341] [INF] Waiting for the method '<GetProductCards>b__0' to be true.
+[2026-03-10 12:04:49.360] [INF] Condition '<GetProductCards>b__0' is fulfilled
+[2026-03-10 12:15:33.920] [INF] TEST END
+[2026-03-10 12:15:33.923] [INF] Test Result: Failed
+[2026-03-10 12:15:33.938] [INF] Saving page source to: '../../../Logs\2026-03-10\run_at_12-04-36\CartTest\AddProductToCartTest_0-1001\page_error_12-15-33-936.html'
+[2026-03-10 12:15:33.950] [INF] Saving 'Browser' logs to '../../../Logs\2026-03-10\run_at_12-04-36\CartTest\AddProductToCartTest_0-1001\Browser_error_12-15-33-941.log'
+[2026-03-10 12:15:34.338] [INF] Saving screenshot to: '../../../Logs\2026-03-10\run_at_12-04-36\CartTest\AddProductToCartTest_0-1001\screenshot_error_12-15-33-952.png'
+[2026-03-10 12:15:34.348] [INF] Trying to quit WebDriver session 'd33e7deac6a2a6b68ce5b04906f18763'
+[2026-03-10 12:15:34.651] [ERR] Error Message:
+  The first product in the basket was not found
+Assert.That(productDetail.Header.GetNthProduct(0, out string productName, out _), Is.True)
+  Expected: True
+  But was:  False
+[2026-03-10 12:15:34.652] [ERR] Stack Trace:
+   at UI.Template.Tests.CartTest.AddProductToCartTest() in c:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\CartTest.cs:line 28
+[2026-03-10 12:15:34.658] [INF] Closing the logger...
+[2026-03-10 12:15:34.659] [INF] ####################################################################################################

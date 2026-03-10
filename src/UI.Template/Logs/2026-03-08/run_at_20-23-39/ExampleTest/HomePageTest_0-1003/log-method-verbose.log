@@ -1,0 +1,8 @@
+[2026-03-08 20:23:40.074] [INF] [LogFactory.InitializeLogger] ####################################################################################################
+[2026-03-08 20:23:40.075] [INF] [BaseTest.BaseSetUp] EXECUTE TEST "UI.Template.Tests.ExampleTest.HomePageTest"
+[2026-03-08 20:23:40.081] [INF] [BaseTest.LogTestProperties] Test Properties: {
+  LevelOfParallelism: 1
+  ParallelScope: Fixtures
+}
+[2026-03-08 20:23:40.082] [INF] [BaseTest.BaseSetUp] TEST START
+[2026-03-08 20:23:40.083] [INF] [WebDriverFactory.InitializeWebDriver] Initializing a WebDriver session

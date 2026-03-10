@@ -1,0 +1,13 @@
+[2026-03-10 13:17:14.122] [ERR] Error Message:
+OpenQA.Selenium.WebDriverTimeoutException : Timed out after 60 seconds: 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']' should be enabled on the page during the timeout.
+[2026-03-10 13:17:14.123] [ERR] Stack Trace:
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at UI.Template.Components.BaseComponent.WaitForEnabled() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\BaseComponent.cs:line 419
+   at UI.Template.Components.Basic.Button.Click() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\Basic\Button.cs:line 21
+   at UI.Template.Components.ProductCard.AddToBasket() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\ProductCard.cs:line 25
+   at UI.Template.Pages.HomePage.AddToBasketFirstProductFromCategory(String category) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Pages\HomePage.cs:line 28
+   at UI.Template.Tests.TC4.AddProductToAdminTest() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\TC4.cs:line 16
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)

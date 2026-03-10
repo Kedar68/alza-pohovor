@@ -1,0 +1,11 @@
+[2026-03-10 20:45:43.489] [ERR] Error Message:
+OpenQA.Selenium.WebDriverTimeoutException : Timed out after 60 seconds: Couldn't get text of the 'Simple' with locator 'By.XPath: //span[@ko-id='order-paymentMethod']' during the timeout.
+[2026-03-10 20:45:43.490] [ERR] Stack Trace:
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at UI.Template.Components.BaseComponent.GetText() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\BaseComponent.cs:line 294
+   at UI.Template.Components.Containers.CheckoutFormContainer.GetSelectedPaymentMethod() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\Containers\CheckoutFormContainer.cs:line 148
+   at UI.Template.Tests.TC4.AddProductToAdminTest() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\TC4.cs:line 68
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)

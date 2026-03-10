@@ -1,0 +1,33 @@
+[2026-03-10 13:18:50.593] [INF] ####################################################################################################
+[2026-03-10 13:18:50.594] [INF] EXECUTE TEST "UI.Template.Tests.TC4.AddProductToAdminTest"
+[2026-03-10 13:18:50.611] [INF] Test Properties: {
+  LevelOfParallelism: 1
+  ParallelScope: Fixtures
+}
+[2026-03-10 13:18:50.611] [INF] TEST START
+[2026-03-10 13:18:50.614] [INF] Initializing a WebDriver session
+[2026-03-10 13:19:11.568] [INF] Waiting for the method '<IsDisplayed>b__4_0' to be true.
+[2026-03-10 13:19:11.768] [INF] Condition '<IsDisplayed>b__4_0' is fulfilled
+[2026-03-10 13:19:11.786] [INF] Waiting for the method '<GetProductCards>b__0' to be true.
+[2026-03-10 13:19:11.802] [INF] Condition '<GetProductCards>b__0' is fulfilled
+[2026-03-10 13:20:15.627] [INF] TEST END
+[2026-03-10 13:20:15.638] [INF] Test Result: Failed
+[2026-03-10 13:20:15.670] [INF] Saving page source to: '../../../Logs\2026-03-10\run_at_13-18-50\TC4\AddProductToAdminTest_0-1009\page_error_13-20-15-669.html'
+[2026-03-10 13:20:15.688] [INF] Saving 'Browser' logs to '../../../Logs\2026-03-10\run_at_13-18-50\TC4\AddProductToAdminTest_0-1009\Browser_error_13-20-15-673.log'
+[2026-03-10 13:20:16.023] [INF] Saving screenshot to: '../../../Logs\2026-03-10\run_at_13-18-50\TC4\AddProductToAdminTest_0-1009\screenshot_error_13-20-15-690.png'
+[2026-03-10 13:20:16.024] [INF] Trying to quit WebDriver session 'ebc6302f8e3d84771180512c1342dfa2'
+[2026-03-10 13:20:16.372] [ERR] Error Message:
+OpenQA.Selenium.WebDriverTimeoutException : Timed out after 60 seconds: 'Button' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//button[@class='add-to-cart']' should be enabled on the page during the timeout.
+[2026-03-10 13:20:16.373] [ERR] Stack Trace:
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at UI.Template.Components.BaseComponent.WaitForEnabled() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\BaseComponent.cs:line 419
+   at UI.Template.Components.Basic.Button.Click() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\Basic\Button.cs:line 21
+   at UI.Template.Components.ProductCard.AddToBasket() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\ProductCard.cs:line 25
+   at UI.Template.Pages.HomePage.AddToBasketFirstProductFromCategory(String category) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Pages\HomePage.cs:line 28
+   at UI.Template.Tests.TC4.AddProductToAdminTest() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\TC4.cs:line 16
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+[2026-03-10 13:20:16.378] [INF] Closing the logger...
+[2026-03-10 13:20:16.379] [INF] ####################################################################################################

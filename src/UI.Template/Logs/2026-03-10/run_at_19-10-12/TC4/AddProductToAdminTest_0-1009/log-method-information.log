@@ -1,0 +1,12 @@
+[2026-03-10 19:10:12.448] [INF] ####################################################################################################
+[2026-03-10 19:10:12.450] [INF] EXECUTE TEST "UI.Template.Tests.TC4.AddProductToAdminTest"
+[2026-03-10 19:10:12.464] [INF] Test Properties: {
+  LevelOfParallelism: 1
+  ParallelScope: Fixtures
+}
+[2026-03-10 19:10:12.464] [INF] TEST START
+[2026-03-10 19:10:12.466] [INF] Initializing a WebDriver session
+[2026-03-10 19:10:18.672] [INF] Waiting for the method '<IsDisplayed>b__4_0' to be true.
+[2026-03-10 19:10:18.718] [INF] Condition '<IsDisplayed>b__4_0' is fulfilled
+[2026-03-10 19:10:18.733] [INF] Waiting for the method '<GetProductCards>b__0' to be true.
+[2026-03-10 19:10:18.746] [INF] Condition '<GetProductCards>b__0' is fulfilled

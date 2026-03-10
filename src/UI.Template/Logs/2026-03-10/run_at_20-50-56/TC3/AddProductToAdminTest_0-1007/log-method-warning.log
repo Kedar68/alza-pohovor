@@ -1,0 +1,47 @@
+[2026-03-10 20:51:40.492] [FTL] Cannot download the page source.
+OpenQA.Selenium.WebDriverException: invalid session id
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.get_PageSource()
+   at UI.Template.Framework.Extensions.IWebDriverExtensions.SavePageSource(IWebDriver webDriver, String optionalFileNameSuffix) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Framework\Extensions\IWebDriverExtensions.cs:line 255
+[2026-03-10 20:51:40.496] [ERR] Cannot get logs for the log type 'browser'
+
+[2026-03-10 20:51:40.496] [ERR] Message type: error; message content: invalid session id
+[2026-03-10 20:51:40.496] [ERR] Message type: message; message content: invalid session id
+[2026-03-10 20:51:40.496] [ERR] Message type: stacktrace; message content: Symbols not available. Dumping unresolved backtrace:
+	0x7ff733a3aa55
+	0x7ff733798630
+	0x7ff73352d546
+	0x7ff733578113
+	0x7ff7335b18e2
+	0x7ff7335abb11
+	0x7ff7335aadc3
+	0x7ff7334f6505
+	0x7ff733a67810
+	0x7ff733a61afd
+	0x7ff733a82c1a
+	0x7ff7337b3345
+	0x7ff7337bb81c
+	0x7ff7334f536a
+	0x7ff733bc2b08
+	0x7fff8656e8d7
+	0x7fff876ac40c
+
+[2026-03-10 20:51:40.496] [WRN] There is no content available and it won't be stored
+[2026-03-10 20:51:40.509] [ERR] Error Message:
+OpenQA.Selenium.WebDriverException : invalid session id
+[2026-03-10 20:51:40.509] [ERR] Stack Trace:
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.get_Url()
+   at UI.Template.Globals.WaitForReady() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Globals.cs:line 159
+   at UI.Template.Framework.Extensions.IWebDriverExtensions.WaitForReady(IWebDriver _) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Framework\Extensions\IWebDriverExtensions.cs:line 58
+   at UI.Template.Components.BaseComponent.WaitForReady() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\BaseComponent.cs:line 645
+   at UI.Template.Components.Basic.Button.Click() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\Basic\Button.cs:line 23
+   at UI.Template.Components.BaseComponent.ScrollToAndClick() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\BaseComponent.cs:line 464
+   at UI.Template.Pages.AdminPage.OpenAddNewProductContainer() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Pages\AdminPage.cs:line 33
+   at UI.Template.Tests.TC3.AddProductToAdminTest() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\TC3.cs:line 17
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)

@@ -1,0 +1,41 @@
+[2026-03-08 20:03:54.440] [INF] ####################################################################################################
+[2026-03-08 20:03:54.442] [INF] EXECUTE TEST "UI.Template.Tests.ProductParametersTest.CheckProductParametersTest"
+[2026-03-08 20:03:54.442] [INF] Test Properties: {
+  LevelOfParallelism: 1
+  ParallelScope: Fixtures
+}
+[2026-03-08 20:03:54.442] [INF] TEST START
+[2026-03-08 20:03:54.442] [INF] Initializing a WebDriver session
+[2026-03-08 20:03:55.703] [INF] TEST END
+[2026-03-08 20:03:55.703] [INF] Test Result: Failed
+[2026-03-08 20:03:55.703] [ERR] Cannot store error data like screenshot or page source. Please check linked error.
+System.Collections.Generic.KeyNotFoundException: The given key 'ProductParametersTestNUnit.Fw.ParallelWorker#1' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at UI.Template.Globals.get_WebDriver() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Globals.cs:line 75
+   at UI.Template.Tests.BaseTest.get_WebDriver() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\BaseTest.cs:line 31
+   at UI.Template.Tests.BaseTest.LogErrorData() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\BaseTest.cs:line 48
+[2026-03-08 20:03:55.704] [FTL] The driver can't be closed because an error appeared during its closing
+System.Collections.Generic.KeyNotFoundException: The given key 'ProductParametersTestNUnit.Fw.ParallelWorker#1' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at UI.Template.Globals.get_WebDriver() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Globals.cs:line 75
+   at UI.Template.Tests.BaseTest.get_WebDriver() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\BaseTest.cs:line 31
+   at UI.Template.Tests.BaseTest.CloseDriver() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\BaseTest.cs:line 80
+[2026-03-08 20:03:55.705] [ERR] Error Message:
+System.InvalidOperationException : session not created: This version of ChromeDriver only supports Chrome version 139
+Current browser version is 145.0.7632.160 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe (SessionNotCreated)
+[2026-03-08 20:03:55.705] [ERR] Stack Trace:
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.StartSession(ICapabilities capabilities)
+   at OpenQA.Selenium.WebDriver..ctor(ICommandExecutor executor, ICapabilities capabilities)
+   at OpenQA.Selenium.Chromium.ChromiumDriver..ctor(ChromiumDriverService service, ChromiumOptions options, TimeSpan commandTimeout)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeOptions options)
+   at UI.Template.Framework.Factories.WebDriverFactory.InitializeWebDriver(DriverOptions driverOptions) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Framework\Factories\WebDriverFactory.cs:line 38
+   at UI.Template.Tests.BaseTest.InitializeDriver() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\BaseTest.cs:line 67
+   at UI.Template.Tests.BaseTest.BaseSetUp() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\BaseTest.cs:line 121
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+[2026-03-08 20:03:55.707] [INF] Closing the logger...
+[2026-03-08 20:03:55.708] [INF] ####################################################################################################

@@ -1,0 +1,122 @@
+[2026-03-10 12:50:39.585] [INF] [LogFactory.InitializeLogger] ####################################################################################################
+[2026-03-10 12:50:39.618] [INF] [BaseTest.BaseSetUp] EXECUTE TEST "UI.Template.Tests.TC3.AddProductToAdminTest"
+[2026-03-10 12:50:39.629] [INF] [BaseTest.LogTestProperties] Test Properties: {
+  LevelOfParallelism: 1
+  ParallelScope: Fixtures
+}
+[2026-03-10 12:50:39.630] [INF] [BaseTest.BaseSetUp] TEST START
+[2026-03-10 12:50:39.632] [INF] [WebDriverFactory.InitializeWebDriver] Initializing a WebDriver session
+[2026-03-10 12:50:41.001] [VRB] [WebDriverFactory.InitializeWebDriver] New created WebDriver session is '4e7a2217cfe93ecc3e1a891367bd0a9e'
+[2026-03-10 12:50:41.006] [VRB] [BasePage.Open] Opening page https://eshop-demo-766125429055.europe-central2.run.app/admin with user authorization.
+[2026-03-10 12:50:44.943] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-10 12:50:44.945] [VRB] [BaseComponent.ScrollTo] Scrolling to 'Button' with locator 'By.XPath: //button[@class='add-button']'.
+[2026-03-10 12:50:44.946] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<ScrollTo>b__55_0' on 'Button' with locator 'By.XPath: //button[@class='add-button']'.
+[2026-03-10 12:50:44.959] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<ScrollTo>b__55_1' on 'Button' with locator 'By.XPath: //button[@class='add-button']'.
+[2026-03-10 12:50:44.973] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-10 12:50:44.974] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: //button[@class='add-button']'.
+[2026-03-10 12:50:45.002] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsClicked>b__60_0' on 'Button' with locator 'By.XPath: //button[@class='add-button']'.
+[2026-03-10 12:50:45.016] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsClicked>b__60_1' on 'Button' with locator 'By.XPath: //button[@class='add-button']'.
+[2026-03-10 12:50:45.122] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-10 12:50:45.131] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-10 12:50:45.132] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'EditProductContainer' with locator 'By.XPath: //div[@class='modal-overlay']'.
+[2026-03-10 12:50:45.155] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='modal-overlay']//*[@id='name']'.
+[2026-03-10 12:50:45.180] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsCleared>b__5_1' on 'TextInput' with locator 'By.XPath: //div[@class='modal-overlay']//*[@id='name']'.
+[2026-03-10 12:50:45.244] [VRB] [TextInput.SendKeys] Text to be filled into 'TextInput' with locator 'By.XPath: //div[@class='modal-overlay']//*[@id='name']' is 'Camera M25'.
+[2026-03-10 12:50:45.245] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='modal-overlay']//*[@id='name']'.
+[2026-03-10 12:50:45.266] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsSendKeys>b__9_1' on 'TextInput' with locator 'By.XPath: //div[@class='modal-overlay']//*[@id='name']'.
+[2026-03-10 12:50:45.336] [VRB] [WebDriverWaitExtensions.GetCustomWait] Initialize custom wait with timeout '60(s)' and interval '500(ms)'
+[2026-03-10 12:50:45.338] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetDomProperty>b__38_1' on 'TextInput' with locator 'By.XPath: //div[@class='modal-overlay']//*[@id='name']'.
+[2026-03-10 12:50:45.353] [VRB] [BaseComponent.GetDomProperty] Value of the DOM property 'value' of the 'TextInput' with locator 'By.XPath: //div[@class='modal-overlay']//*[@id='name']' is 'Camera M25'.
+[2026-03-10 12:50:45.354] [VRB] [TextInput.GetValue] Value of the 'TextInput' with locator 'By.XPath: //div[@class='modal-overlay']//*[@id='name']' is 'Camera M25'.
+[2026-03-10 12:50:45.363] [VRB] [ISearchContextExtensions.WaitForElement] Waiting for presence of the element with by 'By.XPath: //div[@class='modal-overlay']//*[@id='category']'
+[2026-03-10 12:50:45.365] [VRB] [ISearchContextExtensions.WaitForElement] Wait call 'OpenQA.Selenium.Chrome.ChromeDriver' from 'OpenQA.Selenium.Chrome.ChromeDriver' up to 00:01:00s
+[2026-03-10 12:50:45.376] [VRB] [ISearchContextExtensions.WaitForElement] Element with by 'By.XPath: //div[@class='modal-overlay']//*[@id='category']' was found
+[2026-03-10 12:50:45.450] [VRB] [ISearchContextExtensions.WaitForElement] Waiting for presence of the element with by 'By.XPath: //div[@class='modal-overlay']//*[@id='category']'
+[2026-03-10 12:50:45.450] [VRB] [ISearchContextExtensions.WaitForElement] Wait call 'OpenQA.Selenium.Chrome.ChromeDriver' from 'OpenQA.Selenium.Chrome.ChromeDriver' up to 00:01:00s
+[2026-03-10 12:50:45.458] [VRB] [ISearchContextExtensions.WaitForElement] Element with by 'By.XPath: //div[@class='modal-overlay']//*[@id='category']' was found
+[2026-03-10 12:50:45.568] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='modal-overlay']//*[@id='price']'.
+[2026-03-10 12:50:45.595] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsCleared>b__5_1' on 'TextInput' with locator 'By.XPath: //div[@class='modal-overlay']//*[@id='price']'.
+[2026-03-10 12:50:45.620] [VRB] [TextInput.SendKeys] Text to be filled into 'TextInput' with locator 'By.XPath: //div[@class='modal-overlay']//*[@id='price']' is '50.5'.
+[2026-03-10 12:50:45.620] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='modal-overlay']//*[@id='price']'.
+[2026-03-10 12:50:45.642] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsSendKeys>b__9_1' on 'TextInput' with locator 'By.XPath: //div[@class='modal-overlay']//*[@id='price']'.
+[2026-03-10 12:50:45.689] [VRB] [WebDriverWaitExtensions.GetCustomWait] Initialize custom wait with timeout '60(s)' and interval '500(ms)'
+[2026-03-10 12:50:45.689] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetDomProperty>b__38_1' on 'TextInput' with locator 'By.XPath: //div[@class='modal-overlay']//*[@id='price']'.
+[2026-03-10 12:50:45.705] [VRB] [BaseComponent.GetDomProperty] Value of the DOM property 'value' of the 'TextInput' with locator 'By.XPath: //div[@class='modal-overlay']//*[@id='price']' is '50.5'.
+[2026-03-10 12:50:45.705] [VRB] [TextInput.GetValue] Value of the 'TextInput' with locator 'By.XPath: //div[@class='modal-overlay']//*[@id='price']' is '50.5'.
+[2026-03-10 12:50:45.707] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='modal-overlay']//*[@id='stock']'.
+[2026-03-10 12:50:45.733] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsCleared>b__5_1' on 'TextInput' with locator 'By.XPath: //div[@class='modal-overlay']//*[@id='stock']'.
+[2026-03-10 12:50:45.764] [VRB] [TextInput.SendKeys] Text to be filled into 'TextInput' with locator 'By.XPath: //div[@class='modal-overlay']//*[@id='stock']' is '5'.
+[2026-03-10 12:50:45.765] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='modal-overlay']//*[@id='stock']'.
+[2026-03-10 12:50:45.785] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsSendKeys>b__9_1' on 'TextInput' with locator 'By.XPath: //div[@class='modal-overlay']//*[@id='stock']'.
+[2026-03-10 12:50:45.828] [VRB] [WebDriverWaitExtensions.GetCustomWait] Initialize custom wait with timeout '60(s)' and interval '500(ms)'
+[2026-03-10 12:50:45.829] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetDomProperty>b__38_1' on 'TextInput' with locator 'By.XPath: //div[@class='modal-overlay']//*[@id='stock']'.
+[2026-03-10 12:50:45.841] [VRB] [BaseComponent.GetDomProperty] Value of the DOM property 'value' of the 'TextInput' with locator 'By.XPath: //div[@class='modal-overlay']//*[@id='stock']' is '5'.
+[2026-03-10 12:50:45.841] [VRB] [TextInput.GetValue] Value of the 'TextInput' with locator 'By.XPath: //div[@class='modal-overlay']//*[@id='stock']' is '5'.
+[2026-03-10 12:50:45.842] [VRB] [ISearchContextExtensions.WaitForElement] Waiting for presence of the element with by 'By.XPath: //div[@class='modal-overlay']//*[@id='imageUrl']'
+[2026-03-10 12:50:45.842] [VRB] [ISearchContextExtensions.WaitForElement] Wait call 'OpenQA.Selenium.Chrome.ChromeDriver' from 'OpenQA.Selenium.Chrome.ChromeDriver' up to 00:01:00s
+[2026-03-10 12:50:45.854] [VRB] [ISearchContextExtensions.WaitForElement] Element with by 'By.XPath: //div[@class='modal-overlay']//*[@id='imageUrl']' was found
+[2026-03-10 12:50:45.921] [VRB] [ISearchContextExtensions.WaitForElement] Waiting for presence of the element with by 'By.XPath: //div[@class='modal-overlay']//*[@id='imageUrl']'
+[2026-03-10 12:50:45.921] [VRB] [ISearchContextExtensions.WaitForElement] Wait call 'OpenQA.Selenium.Chrome.ChromeDriver' from 'OpenQA.Selenium.Chrome.ChromeDriver' up to 00:01:00s
+[2026-03-10 12:50:45.929] [VRB] [ISearchContextExtensions.WaitForElement] Element with by 'By.XPath: //div[@class='modal-overlay']//*[@id='imageUrl']' was found
+[2026-03-10 12:50:46.091] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsCleared>b__5_0' on 'TextInput' with locator 'By.XPath: //div[@class='modal-overlay']//*[@id='description']'.
+[2026-03-10 12:50:46.119] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsCleared>b__5_1' on 'TextInput' with locator 'By.XPath: //div[@class='modal-overlay']//*[@id='description']'.
+[2026-03-10 12:50:46.141] [VRB] [TextInput.SendKeys] Text to be filled into 'TextInput' with locator 'By.XPath: //div[@class='modal-overlay']//*[@id='description']' is 'Camera'.
+[2026-03-10 12:50:46.141] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsSendKeys>b__9_0' on 'TextInput' with locator 'By.XPath: //div[@class='modal-overlay']//*[@id='description']'.
+[2026-03-10 12:50:46.167] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsSendKeys>b__9_1' on 'TextInput' with locator 'By.XPath: //div[@class='modal-overlay']//*[@id='description']'.
+[2026-03-10 12:50:46.237] [VRB] [WebDriverWaitExtensions.GetCustomWait] Initialize custom wait with timeout '60(s)' and interval '500(ms)'
+[2026-03-10 12:50:46.237] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetDomProperty>b__38_1' on 'TextInput' with locator 'By.XPath: //div[@class='modal-overlay']//*[@id='description']'.
+[2026-03-10 12:50:46.253] [VRB] [BaseComponent.GetDomProperty] Value of the DOM property 'value' of the 'TextInput' with locator 'By.XPath: //div[@class='modal-overlay']//*[@id='description']' is 'Camera'.
+[2026-03-10 12:50:46.253] [VRB] [TextInput.GetValue] Value of the 'TextInput' with locator 'By.XPath: //div[@class='modal-overlay']//*[@id='description']' is 'Camera'.
+[2026-03-10 12:50:46.254] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: //div[@class='modal-overlay']//button[@class='save-button']'.
+[2026-03-10 12:50:46.284] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsClicked>b__60_0' on 'Button' with locator 'By.XPath: //div[@class='modal-overlay']//button[@class='save-button']'.
+[2026-03-10 12:50:46.301] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsClicked>b__60_1' on 'Button' with locator 'By.XPath: //div[@class='modal-overlay']//button[@class='save-button']'.
+[2026-03-10 12:50:46.369] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-10 12:50:46.370] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsNotDisplayed>b__30_0' on 'EditProductContainer' with locator 'By.XPath: //div[@class='modal-overlay']'.
+[2026-03-10 12:50:46.418] [VRB] [BaseComponent.EvaluateElementBoolFunction] Catching no such element exception.
+[2026-03-10 12:50:46.426] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsEnabled>b__31_0' on 'Button' with locator 'By.XPath: //button[@class='back-button']'.
+[2026-03-10 12:50:46.459] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsClicked>b__60_0' on 'Button' with locator 'By.XPath: //button[@class='back-button']'.
+[2026-03-10 12:50:46.478] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsClicked>b__60_1' on 'Button' with locator 'By.XPath: //button[@class='back-button']'.
+[2026-03-10 12:50:46.679] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-10 12:50:46.680] [VRB] [IWebDriverExtensions.WaitForUrlChanged] Waiting for url is changed from 'https://priklopil:jan@eshop-demo-766125429055.europe-central2.run.app/admin'
+[2026-03-10 12:50:46.701] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-10 12:50:46.737] [VRB] [IWebDriverExtensions.WaitForUrlChanged] Url was changed to 'https://priklopil:jan@eshop-demo-766125429055.europe-central2.run.app/'
+[2026-03-10 12:50:46.738] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsClicked>b__60_0' on 'Simple' with locator 'By.XPath: //li[contains (text(),'Cameras')]'.
+[2026-03-10 12:50:47.343] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsClicked>b__60_1' on 'Simple' with locator 'By.XPath: //li[contains (text(),'Cameras')]'.
+[2026-03-10 12:50:47.430] [INF] [WebDriverWaitExtensions.TryWaitWithCondition] Waiting for the method '<IsDisplayed>b__4_0' to be true.
+[2026-03-10 12:50:47.431] [VRB] [WebDriverWaitExtensions.GetCustomWait] Initialize custom wait with timeout '5(s)' and interval '500(ms)'
+[2026-03-10 12:50:47.431] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'CategoryContainer' with locator 'By.XPath: //*[@class='categories-sidebar']'.
+[2026-03-10 12:50:47.454] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'Simple' with locator 'By.XPath: //ul[@class='category-list']'.
+[2026-03-10 12:50:47.476] [INF] [WebDriverWaitExtensions.TryWaitWithCondition] Condition '<IsDisplayed>b__4_0' is fulfilled
+[2026-03-10 12:50:47.489] [INF] [WebDriverWaitExtensions.TryWaitWithCondition] Waiting for the method '<GetProductCards>b__0' to be true.
+[2026-03-10 12:50:47.489] [VRB] [WebDriverWaitExtensions.GetCustomWait] Initialize custom wait with timeout '5(s)' and interval '500(ms)'
+[2026-03-10 12:50:47.510] [INF] [WebDriverWaitExtensions.TryWaitWithCondition] Condition '<GetProductCards>b__0' is fulfilled
+[2026-03-10 12:50:47.523] [VRB] [BaseComponent.ScrollTo] Scrolling to 'ProductCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-10 12:50:47.523] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<ScrollTo>b__55_0' on 'ProductCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-10 12:50:47.541] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<ScrollTo>b__55_1' on 'ProductCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-10 12:50:47.561] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-10 12:50:47.562] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'ProductCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-10 12:50:47.590] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'ProductCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]'.
+[2026-03-10 12:50:47.617] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//a[@class='product-link']//h3'.
+[2026-03-10 12:50:47.664] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[1]//a[@class='product-link']//h3' is 'DSLR Camera X200'.
+[2026-03-10 12:50:47.664] [VRB] [BaseComponent.ScrollTo] Scrolling to 'ProductCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[2]'.
+[2026-03-10 12:50:47.664] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<ScrollTo>b__55_0' on 'ProductCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[2]'.
+[2026-03-10 12:50:47.681] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<ScrollTo>b__55_1' on 'ProductCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[2]'.
+[2026-03-10 12:50:47.696] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-10 12:50:47.696] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'ProductCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[2]'.
+[2026-03-10 12:50:47.717] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsDisplayed>b__28_0' on 'ProductCard' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[2]'.
+[2026-03-10 12:50:47.737] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[2]//a[@class='product-link']//h3'.
+[2026-03-10 12:50:47.775] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[2]//a[@class='product-link']//h3' is 'Camera M25'.
+[2026-03-10 12:50:47.776] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate method '<IsClicked>b__60_0' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[2]//a[@class='product-link']//h3'.
+[2026-03-10 12:50:47.799] [VRB] [BaseComponent.EvaluateElementBoolFunction] Trying to evaluate action '<IsClicked>b__60_1' on 'Simple' with locator 'By.XPath: (//*[@class='products-grid']//div[@class='product-card'])[2]//a[@class='product-link']//h3'.
+[2026-03-10 12:50:47.967] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-10 12:51:47.980] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //div[@class='product-info']//h1[@class='product-name']'.
+[2026-03-10 12:51:48.020] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: //div[@class='product-info']//h1[@class='product-name']' is 'Camera M25'.
+[2026-03-10 12:52:09.511] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //div[@class='product-info']//span[@ko-id='price-value']'.
+[2026-03-10 12:52:09.554] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: //div[@class='product-info']//span[@ko-id='price-value']' is '$ 50.50'.
+[2026-03-10 12:52:59.179] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //div[@class='product-info']//span[@ko-id='stock-value']'.
+[2026-03-10 12:52:59.246] [VRB] [BaseComponent.GetText] Text of the 'Simple' with locator 'By.XPath: //div[@class='product-info']//span[@ko-id='stock-value']' is '5'.
+[2026-03-10 12:53:12.363] [INF] [BaseTest.BaseTearDown] TEST END
+[2026-03-10 12:53:12.366] [INF] [BaseTest.BaseTearDown] Test Result: Passed
+[2026-03-10 12:53:12.372] [INF] [BaseTest.CloseDriver] Trying to quit WebDriver session '4e7a2217cfe93ecc3e1a891367bd0a9e'
+[2026-03-10 12:53:12.728] [INF] [LogFactory.CloseLogger] Closing the logger...
+[2026-03-10 12:53:12.729] [INF] [LogFactory.CloseLogger] ####################################################################################################

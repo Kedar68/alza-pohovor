@@ -1,0 +1,9 @@
+[2026-03-10 18:43:02.120] [ERR] Error Message:
+System.NotImplementedException : The method or operation is not implemented.
+[2026-03-10 18:43:02.121] [ERR] Stack Trace:
+   at UI.Template.Tests.EditCheckoutInfoContainer.SetFirstName(String v) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\TC4.cs:line 77
+   at UI.Template.Tests.TC4.<>c__DisplayClass0_0.<AddProductToAdminTest>b__0() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\TC4.cs:line 46
+   at NUnit.Framework.Assert.Multiple(TestDelegate testDelegate)
+   at UI.Template.Tests.TC4.AddProductToAdminTest() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\TC4.cs:line 44
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)

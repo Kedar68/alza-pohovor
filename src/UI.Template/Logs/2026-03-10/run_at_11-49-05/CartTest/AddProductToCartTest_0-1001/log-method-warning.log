@@ -1,0 +1,7 @@
+[2026-03-10 11:51:50.416] [ERR] Error Message:
+  The first product in the basket was not found
+Assert.That(productDetail.Header.GetNthProduct(0, out string productName, out _), Is.True)
+  Expected: True
+  But was:  False
+[2026-03-10 11:51:50.418] [ERR] Stack Trace:
+   at UI.Template.Tests.CartTest.AddProductToCartTest() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\CartTest.cs:line 28

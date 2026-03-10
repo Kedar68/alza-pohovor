@@ -1,0 +1,27 @@
+[2026-03-10 13:52:26.485] [INF] ####################################################################################################
+[2026-03-10 13:52:26.485] [INF] EXECUTE TEST "UI.Template.Tests.TC4.AddProductToAdminTest"
+[2026-03-10 13:52:26.497] [INF] Test Properties: {
+  LevelOfParallelism: 1
+  ParallelScope: Fixtures
+}
+[2026-03-10 13:52:26.497] [INF] TEST START
+[2026-03-10 13:52:26.499] [INF] Initializing a WebDriver session
+[2026-03-10 13:52:32.299] [INF] Waiting for the method '<IsDisplayed>b__4_0' to be true.
+[2026-03-10 13:52:32.420] [INF] Condition '<IsDisplayed>b__4_0' is fulfilled
+[2026-03-10 13:52:32.427] [INF] Waiting for the method '<GetProductCards>b__0' to be true.
+[2026-03-10 13:52:32.440] [INF] Condition '<GetProductCards>b__0' is fulfilled
+[2026-03-10 13:52:49.197] [INF] TEST END
+[2026-03-10 13:52:49.201] [INF] Test Result: Failed
+[2026-03-10 13:52:49.220] [INF] Saving page source to: '../../../Logs\2026-03-10\run_at_13-52-26\TC4\AddProductToAdminTest_0-1009\page_error_13-52-49-218.html'
+[2026-03-10 13:52:49.233] [INF] Saving 'Browser' logs to '../../../Logs\2026-03-10\run_at_13-52-26\TC4\AddProductToAdminTest_0-1009\Browser_error_13-52-49-222.log'
+[2026-03-10 13:52:49.364] [INF] Saving screenshot to: '../../../Logs\2026-03-10\run_at_13-52-26\TC4\AddProductToAdminTest_0-1009\screenshot_error_13-52-49-235.png'
+[2026-03-10 13:52:49.365] [INF] Trying to quit WebDriver session '74f9294cabec381ee849beb6e6aa55b5'
+[2026-03-10 13:52:49.647] [ERR] Error Message:
+  Product was not added to the basket.
+Assert.That(addedToBasket, Is.True)
+  Expected: True
+  But was:  False
+[2026-03-10 13:52:49.648] [ERR] Stack Trace:
+   at UI.Template.Tests.TC4.AddProductToAdminTest() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\TC4.cs:line 17
+[2026-03-10 13:52:49.651] [INF] Closing the logger...
+[2026-03-10 13:52:49.651] [INF] ####################################################################################################

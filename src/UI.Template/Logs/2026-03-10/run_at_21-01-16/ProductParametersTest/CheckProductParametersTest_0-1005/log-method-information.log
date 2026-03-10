@@ -1,0 +1,19 @@
+[2026-03-10 21:01:16.144] [INF] ####################################################################################################
+[2026-03-10 21:01:16.144] [INF] EXECUTE TEST "UI.Template.Tests.ProductParametersTest.CheckProductParametersTest"
+[2026-03-10 21:01:16.150] [INF] Test Properties: {
+  LevelOfParallelism: 1
+  ParallelScope: Fixtures
+}
+[2026-03-10 21:01:16.151] [INF] TEST START
+[2026-03-10 21:01:16.152] [INF] Initializing a WebDriver session
+[2026-03-10 21:01:23.726] [INF] Waiting for the method '<GetProductCards>b__0' to be true.
+[2026-03-10 21:01:23.740] [INF] Condition '<GetProductCards>b__0' is fulfilled
+[2026-03-10 21:01:25.412] [INF] Waiting for the method '<IsDisplayed>b__4_0' to be true.
+[2026-03-10 21:01:25.471] [INF] Condition '<IsDisplayed>b__4_0' is fulfilled
+[2026-03-10 21:01:25.471] [INF] Waiting for the method '<GetProductCards>b__0' to be true.
+[2026-03-10 21:01:25.479] [INF] Condition '<GetProductCards>b__0' is fulfilled
+[2026-03-10 21:01:25.950] [INF] TEST END
+[2026-03-10 21:01:25.953] [INF] Test Result: Passed
+[2026-03-10 21:01:25.953] [INF] Trying to quit WebDriver session '62e10c225dd00c342a4b804b67224bf1'
+[2026-03-10 21:01:26.246] [INF] Closing the logger...
+[2026-03-10 21:01:26.247] [INF] ####################################################################################################

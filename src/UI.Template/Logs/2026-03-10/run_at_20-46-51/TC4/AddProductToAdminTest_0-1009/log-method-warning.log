@@ -1,0 +1,9 @@
+[2026-03-10 20:47:50.620] [ERR] Error Message:
+  Payment method does not match expected value.
+Assert.That(CheckoutFormContainer.GetSelectedPaymentMethod(), Is.EqualTo("PayPal"))
+  Expected string length 6 but was 22. Strings differ at index 3.
+  Expected: "PayPal"
+  But was:  "Payment Method: PayPal"
+  --------------^
+[2026-03-10 20:47:50.622] [ERR] Stack Trace:
+   at UI.Template.Tests.TC4.AddProductToAdminTest() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\TC4.cs:line 68

@@ -1,0 +1,37 @@
+[2026-03-10 16:55:05.878] [INF] ####################################################################################################
+[2026-03-10 16:55:05.903] [INF] EXECUTE TEST "UI.Template.Tests.TC4.AddProductToAdminTest"
+[2026-03-10 16:55:05.912] [INF] Test Properties: {
+  LevelOfParallelism: 1
+  ParallelScope: Fixtures
+}
+[2026-03-10 16:55:05.913] [INF] TEST START
+[2026-03-10 16:55:05.915] [INF] Initializing a WebDriver session
+[2026-03-10 16:55:13.119] [INF] Waiting for the method '<IsDisplayed>b__4_0' to be true.
+[2026-03-10 16:55:13.282] [INF] Condition '<IsDisplayed>b__4_0' is fulfilled
+[2026-03-10 16:55:13.299] [INF] Waiting for the method '<GetProductCards>b__0' to be true.
+[2026-03-10 16:55:13.314] [INF] Condition '<GetProductCards>b__0' is fulfilled
+[2026-03-10 17:01:15.420] [INF] TEST END
+[2026-03-10 17:01:15.425] [INF] Test Result: Failed
+[2026-03-10 17:01:15.467] [INF] Saving page source to: '../../../Logs\2026-03-10\run_at_16-55-05\TC4\AddProductToAdminTest_0-1009\page_error_17-01-15-463.html'
+[2026-03-10 17:01:15.492] [INF] Saving 'Browser' logs to '../../../Logs\2026-03-10\run_at_16-55-05\TC4\AddProductToAdminTest_0-1009\Browser_error_17-01-15-469.log'
+[2026-03-10 17:01:16.046] [INF] Saving screenshot to: '../../../Logs\2026-03-10\run_at_16-55-05\TC4\AddProductToAdminTest_0-1009\screenshot_error_17-01-15-497.png'
+[2026-03-10 17:01:16.053] [INF] Trying to quit WebDriver session '9014806e8398c3e65eafafdb8ad83960'
+[2026-03-10 17:01:16.533] [ERR] Error Message:
+Multiple failures or warnings in test:
+  1)   The price of product in the basket is not same as in test data
+Assert.That(productPrice, Is.EqualTo("300"))
+  Expected string length 3 but was 12. Strings differ at index 0.
+  Expected: "300"
+  But was:  "$ 700.00 × 1"
+  -----------^
+
+  2)   The quantity of product in the basket is not same as expected
+Assert.That(productQuantity, Is.EqualTo("1"))
+  Expected string length 1 but was 0. Strings differ at index 0.
+  Expected: "1"
+  But was:  <string.Empty>
+  -----------^
+[2026-03-10 17:01:16.535] [ERR] Stack Trace:
+   at UI.Template.Tests.TC4.AddProductToAdminTest() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\TC4.cs:line 33
+[2026-03-10 17:01:16.540] [INF] Closing the logger...
+[2026-03-10 17:01:16.541] [INF] ####################################################################################################

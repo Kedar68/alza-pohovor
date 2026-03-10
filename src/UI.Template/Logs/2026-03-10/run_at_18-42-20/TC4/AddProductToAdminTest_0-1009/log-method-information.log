@@ -1,0 +1,29 @@
+[2026-03-10 18:42:21.164] [INF] ####################################################################################################
+[2026-03-10 18:42:21.167] [INF] EXECUTE TEST "UI.Template.Tests.TC4.AddProductToAdminTest"
+[2026-03-10 18:42:21.175] [INF] Test Properties: {
+  LevelOfParallelism: 1
+  ParallelScope: Fixtures
+}
+[2026-03-10 18:42:21.175] [INF] TEST START
+[2026-03-10 18:42:21.177] [INF] Initializing a WebDriver session
+[2026-03-10 18:42:29.323] [INF] Waiting for the method '<IsDisplayed>b__4_0' to be true.
+[2026-03-10 18:42:29.429] [INF] Condition '<IsDisplayed>b__4_0' is fulfilled
+[2026-03-10 18:42:29.446] [INF] Waiting for the method '<GetProductCards>b__0' to be true.
+[2026-03-10 18:42:29.457] [INF] Condition '<GetProductCards>b__0' is fulfilled
+[2026-03-10 18:43:01.673] [INF] TEST END
+[2026-03-10 18:43:01.685] [INF] Test Result: Failed
+[2026-03-10 18:43:01.718] [INF] Saving page source to: '../../../Logs\2026-03-10\run_at_18-42-20\TC4\AddProductToAdminTest_0-1009\page_error_18-43-01-714.html'
+[2026-03-10 18:43:01.735] [INF] Saving 'Browser' logs to '../../../Logs\2026-03-10\run_at_18-42-20\TC4\AddProductToAdminTest_0-1009\Browser_error_18-43-01-720.log'
+[2026-03-10 18:43:01.860] [INF] Saving screenshot to: '../../../Logs\2026-03-10\run_at_18-42-20\TC4\AddProductToAdminTest_0-1009\screenshot_error_18-43-01-738.png'
+[2026-03-10 18:43:01.862] [INF] Trying to quit WebDriver session '05fa950306bb8f2f1a7ceca82291f9d5'
+[2026-03-10 18:43:02.120] [ERR] Error Message:
+System.NotImplementedException : The method or operation is not implemented.
+[2026-03-10 18:43:02.121] [ERR] Stack Trace:
+   at UI.Template.Tests.EditCheckoutInfoContainer.SetFirstName(String v) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\TC4.cs:line 77
+   at UI.Template.Tests.TC4.<>c__DisplayClass0_0.<AddProductToAdminTest>b__0() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\TC4.cs:line 46
+   at NUnit.Framework.Assert.Multiple(TestDelegate testDelegate)
+   at UI.Template.Tests.TC4.AddProductToAdminTest() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\TC4.cs:line 44
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+[2026-03-10 18:43:02.127] [INF] Closing the logger...
+[2026-03-10 18:43:02.128] [INF] ####################################################################################################

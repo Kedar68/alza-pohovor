@@ -1,0 +1,44 @@
+[2026-03-10 17:01:40.907] [INF] ####################################################################################################
+[2026-03-10 17:01:40.936] [INF] EXECUTE TEST "UI.Template.Tests.TC4.AddProductToAdminTest"
+[2026-03-10 17:01:40.948] [INF] Test Properties: {
+  LevelOfParallelism: 1
+  ParallelScope: Fixtures
+}
+[2026-03-10 17:01:40.948] [INF] TEST START
+[2026-03-10 17:01:40.951] [INF] Initializing a WebDriver session
+[2026-03-10 17:01:47.924] [INF] Waiting for the method '<IsDisplayed>b__4_0' to be true.
+[2026-03-10 17:01:48.090] [INF] Condition '<IsDisplayed>b__4_0' is fulfilled
+[2026-03-10 17:01:48.105] [INF] Waiting for the method '<GetProductCards>b__0' to be true.
+[2026-03-10 17:01:48.117] [INF] Condition '<GetProductCards>b__0' is fulfilled
+[2026-03-10 17:03:14.784] [INF] TEST END
+[2026-03-10 17:03:14.791] [INF] Test Result: Failed
+[2026-03-10 17:03:14.832] [INF] Saving page source to: '../../../Logs\2026-03-10\run_at_17-01-40\TC4\AddProductToAdminTest_0-1009\page_error_17-03-14-830.html'
+[2026-03-10 17:03:14.848] [INF] Saving 'Browser' logs to '../../../Logs\2026-03-10\run_at_17-01-40\TC4\AddProductToAdminTest_0-1009\Browser_error_17-03-14-833.log'
+[2026-03-10 17:03:15.423] [INF] Saving screenshot to: '../../../Logs\2026-03-10\run_at_17-01-40\TC4\AddProductToAdminTest_0-1009\screenshot_error_17-03-14-851.png'
+[2026-03-10 17:03:15.424] [INF] Trying to quit WebDriver session 'fdfb1f9153871a167ac0320349cc1013'
+[2026-03-10 17:03:15.921] [ERR] Error Message:
+Multiple failures or warnings in test:
+  1)   The name of product in the basket is not same as in test data
+Assert.That(productName, Is.EqualTo("DSLR Camera X200"))
+  Expected string length 16 but was 0. Strings differ at index 0.
+  Expected: "DSLR Camera X200"
+  But was:  <string.Empty>
+  -----------^
+
+  2)   The price of product in the basket is not same as in test data
+Assert.That(productPrice, Is.EqualTo("300"))
+  Expected string length 3 but was 0. Strings differ at index 0.
+  Expected: "300"
+  But was:  <string.Empty>
+  -----------^
+
+  3)   The quantity of product in the basket is not same as expected
+Assert.That(productQuantity, Is.EqualTo("1"))
+  Expected string length 1 but was 0. Strings differ at index 0.
+  Expected: "1"
+  But was:  <string.Empty>
+  -----------^
+[2026-03-10 17:03:15.922] [ERR] Stack Trace:
+   at UI.Template.Tests.TC4.AddProductToAdminTest() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\TC4.cs:line 33
+[2026-03-10 17:03:15.926] [INF] Closing the logger...
+[2026-03-10 17:03:15.927] [INF] ####################################################################################################

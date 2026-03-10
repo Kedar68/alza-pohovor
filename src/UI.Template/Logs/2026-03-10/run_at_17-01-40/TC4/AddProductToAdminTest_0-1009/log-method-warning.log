@@ -1,0 +1,24 @@
+[2026-03-10 17:03:15.921] [ERR] Error Message:
+Multiple failures or warnings in test:
+  1)   The name of product in the basket is not same as in test data
+Assert.That(productName, Is.EqualTo("DSLR Camera X200"))
+  Expected string length 16 but was 0. Strings differ at index 0.
+  Expected: "DSLR Camera X200"
+  But was:  <string.Empty>
+  -----------^
+
+  2)   The price of product in the basket is not same as in test data
+Assert.That(productPrice, Is.EqualTo("300"))
+  Expected string length 3 but was 0. Strings differ at index 0.
+  Expected: "300"
+  But was:  <string.Empty>
+  -----------^
+
+  3)   The quantity of product in the basket is not same as expected
+Assert.That(productQuantity, Is.EqualTo("1"))
+  Expected string length 1 but was 0. Strings differ at index 0.
+  Expected: "1"
+  But was:  <string.Empty>
+  -----------^
+[2026-03-10 17:03:15.922] [ERR] Stack Trace:
+   at UI.Template.Tests.TC4.AddProductToAdminTest() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\TC4.cs:line 33

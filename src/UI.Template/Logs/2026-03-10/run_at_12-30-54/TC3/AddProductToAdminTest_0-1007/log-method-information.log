@@ -1,0 +1,13 @@
+[2026-03-10 12:30:54.478] [INF] ####################################################################################################
+[2026-03-10 12:30:54.478] [INF] EXECUTE TEST "UI.Template.Tests.TC3.AddProductToAdminTest"
+[2026-03-10 12:30:54.487] [INF] Test Properties: {
+  LevelOfParallelism: 1
+  ParallelScope: Fixtures
+}
+[2026-03-10 12:30:54.488] [INF] TEST START
+[2026-03-10 12:30:54.490] [INF] Initializing a WebDriver session
+[2026-03-10 12:32:05.183] [INF] TEST END
+[2026-03-10 12:32:05.188] [INF] Test Result: Passed
+[2026-03-10 12:32:05.193] [INF] Trying to quit WebDriver session '6c990a356cb1c934c23a23b43ac278bd'
+[2026-03-10 12:32:05.477] [INF] Closing the logger...
+[2026-03-10 12:32:05.478] [INF] ####################################################################################################

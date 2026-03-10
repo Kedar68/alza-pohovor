@@ -1,0 +1,31 @@
+[2026-03-10 12:16:00.098] [INF] ####################################################################################################
+[2026-03-10 12:16:00.099] [INF] EXECUTE TEST "UI.Template.Tests.CartTest.AddProductToCartTest"
+[2026-03-10 12:16:00.110] [INF] Test Properties: {
+  LevelOfParallelism: 1
+  ParallelScope: Fixtures
+}
+[2026-03-10 12:16:00.110] [INF] TEST START
+[2026-03-10 12:16:00.111] [INF] Initializing a WebDriver session
+[2026-03-10 12:16:09.215] [INF] Waiting for the method '<IsDisplayed>b__4_0' to be true.
+[2026-03-10 12:16:09.643] [INF] Condition '<IsDisplayed>b__4_0' is fulfilled
+[2026-03-10 12:16:09.663] [INF] Waiting for the method '<GetProductCards>b__0' to be true.
+[2026-03-10 12:16:09.691] [INF] Condition '<GetProductCards>b__0' is fulfilled
+[2026-03-10 12:17:49.973] [INF] TEST END
+[2026-03-10 12:17:49.981] [INF] Test Result: Failed
+[2026-03-10 12:17:50.045] [INF] Saving page source to: '../../../Logs\2026-03-10\run_at_12-15-59\CartTest\AddProductToCartTest_0-1001\page_error_12-17-50-044.html'
+[2026-03-10 12:17:50.067] [INF] Saving 'Browser' logs to '../../../Logs\2026-03-10\run_at_12-15-59\CartTest\AddProductToCartTest_0-1001\Browser_error_12-17-50-047.log'
+[2026-03-10 12:17:50.389] [INF] Saving screenshot to: '../../../Logs\2026-03-10\run_at_12-15-59\CartTest\AddProductToCartTest_0-1001\screenshot_error_12-17-50-068.png'
+[2026-03-10 12:17:50.393] [INF] Trying to quit WebDriver session '77cfb3a7dc917ef028cdc11778475c24'
+[2026-03-10 12:17:50.736] [ERR] Error Message:
+OpenQA.Selenium.WebDriverTimeoutException : Timed out after 60 seconds: 'Simple' with locator 'By.XPath: //div[@class='cart-view']' should be displayed on the page during the timeout.
+[2026-03-10 12:17:50.736] [ERR] Stack Trace:
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at UI.Template.Components.BaseComponent.WaitForDisplayed() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\BaseComponent.cs:line 405
+   at UI.Template.Components.Containers.HeaderContainer.OpenBasketContainer() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\Containers\HeaderContainer.cs:line 25
+   at UI.Template.Tests.CartTest.AddProductToCartTest() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\CartTest.cs:line 27
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+[2026-03-10 12:17:50.741] [INF] Closing the logger...
+[2026-03-10 12:17:50.742] [INF] ####################################################################################################

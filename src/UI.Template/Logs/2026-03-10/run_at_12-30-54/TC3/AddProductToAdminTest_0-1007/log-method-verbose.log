@@ -1,0 +1,16 @@
+[2026-03-10 12:30:54.478] [INF] [LogFactory.InitializeLogger] ####################################################################################################
+[2026-03-10 12:30:54.478] [INF] [BaseTest.BaseSetUp] EXECUTE TEST "UI.Template.Tests.TC3.AddProductToAdminTest"
+[2026-03-10 12:30:54.487] [INF] [BaseTest.LogTestProperties] Test Properties: {
+  LevelOfParallelism: 1
+  ParallelScope: Fixtures
+}
+[2026-03-10 12:30:54.488] [INF] [BaseTest.BaseSetUp] TEST START
+[2026-03-10 12:30:54.490] [INF] [WebDriverFactory.InitializeWebDriver] Initializing a WebDriver session
+[2026-03-10 12:30:55.894] [VRB] [WebDriverFactory.InitializeWebDriver] New created WebDriver session is '6c990a356cb1c934c23a23b43ac278bd'
+[2026-03-10 12:31:51.809] [VRB] [BasePage.Open] Opening page https://eshop-demo-766125429055.europe-central2.run.app/admin with user authorization.
+[2026-03-10 12:31:56.762] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-10 12:32:05.183] [INF] [BaseTest.BaseTearDown] TEST END
+[2026-03-10 12:32:05.188] [INF] [BaseTest.BaseTearDown] Test Result: Passed
+[2026-03-10 12:32:05.193] [INF] [BaseTest.CloseDriver] Trying to quit WebDriver session '6c990a356cb1c934c23a23b43ac278bd'
+[2026-03-10 12:32:05.477] [INF] [LogFactory.CloseLogger] Closing the logger...
+[2026-03-10 12:32:05.478] [INF] [LogFactory.CloseLogger] ####################################################################################################

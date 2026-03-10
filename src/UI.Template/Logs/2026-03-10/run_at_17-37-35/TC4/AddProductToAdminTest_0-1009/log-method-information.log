@@ -1,0 +1,29 @@
+[2026-03-10 17:37:35.874] [INF] ####################################################################################################
+[2026-03-10 17:37:35.876] [INF] EXECUTE TEST "UI.Template.Tests.TC4.AddProductToAdminTest"
+[2026-03-10 17:37:35.882] [INF] Test Properties: {
+  LevelOfParallelism: 1
+  ParallelScope: Fixtures
+}
+[2026-03-10 17:37:35.883] [INF] TEST START
+[2026-03-10 17:37:35.885] [INF] Initializing a WebDriver session
+[2026-03-10 17:37:44.057] [INF] Waiting for the method '<IsDisplayed>b__4_0' to be true.
+[2026-03-10 17:37:44.123] [INF] Condition '<IsDisplayed>b__4_0' is fulfilled
+[2026-03-10 17:37:44.131] [INF] Waiting for the method '<GetProductCards>b__0' to be true.
+[2026-03-10 17:37:44.146] [INF] Condition '<GetProductCards>b__0' is fulfilled
+[2026-03-10 17:38:11.002] [INF] TEST END
+[2026-03-10 17:38:11.011] [INF] Test Result: Failed
+[2026-03-10 17:38:11.052] [INF] Saving page source to: '../../../Logs\2026-03-10\run_at_17-37-35\TC4\AddProductToAdminTest_0-1009\page_error_17-38-11-051.html'
+[2026-03-10 17:38:11.066] [INF] Saving 'Browser' logs to '../../../Logs\2026-03-10\run_at_17-37-35\TC4\AddProductToAdminTest_0-1009\Browser_error_17-38-11-053.log'
+[2026-03-10 17:38:11.317] [INF] Saving screenshot to: '../../../Logs\2026-03-10\run_at_17-37-35\TC4\AddProductToAdminTest_0-1009\screenshot_error_17-38-11-068.png'
+[2026-03-10 17:38:11.319] [INF] Trying to quit WebDriver session '38d681da1249895a8f05b153a78cc5fc'
+[2026-03-10 17:38:11.536] [ERR] Error Message:
+  Product name does not match
+Assert.That(productDetail.ProductInfoForm.GetName(), Is.EqualTo("Camera M25"))
+  Expected string length 10 but was 16. Strings differ at index 0.
+  Expected: "Camera M25"
+  But was:  "DSLR Camera X200"
+  -----------^
+[2026-03-10 17:38:11.536] [ERR] Stack Trace:
+   at UI.Template.Tests.TC4.AddProductToAdminTest() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\TC4.cs:line 34
+[2026-03-10 17:38:11.540] [INF] Closing the logger...
+[2026-03-10 17:38:11.541] [INF] ####################################################################################################

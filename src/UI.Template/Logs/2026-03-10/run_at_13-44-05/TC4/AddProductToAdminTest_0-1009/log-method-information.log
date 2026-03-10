@@ -1,0 +1,16 @@
+[2026-03-10 13:44:05.371] [INF] ####################################################################################################
+[2026-03-10 13:44:05.372] [INF] EXECUTE TEST "UI.Template.Tests.TC4.AddProductToAdminTest"
+[2026-03-10 13:44:05.383] [INF] Test Properties: {
+  LevelOfParallelism: 1
+  ParallelScope: Fixtures
+}
+[2026-03-10 13:44:05.383] [INF] TEST START
+[2026-03-10 13:44:05.385] [INF] Initializing a WebDriver session
+[2026-03-10 13:44:11.323] [INF] Waiting for the method '<IsDisplayed>b__4_0' to be true.
+[2026-03-10 13:44:11.451] [INF] Condition '<IsDisplayed>b__4_0' is fulfilled
+[2026-03-10 13:44:11.456] [INF] Waiting for the method '<GetProductCards>b__0' to be true.
+[2026-03-10 13:44:11.470] [INF] Condition '<GetProductCards>b__0' is fulfilled
+[2026-03-10 13:45:30.369] [INF] TEST END
+[2026-03-10 13:45:30.372] [INF] Test Result: Failed
+[2026-03-10 13:45:30.393] [INF] Saving page source to: '../../../Logs\2026-03-10\run_at_13-44-05\TC4\AddProductToAdminTest_0-1009\page_error_13-45-30-391.html'
+[2026-03-10 13:45:30.402] [INF] Saving 'Browser' logs to '../../../Logs\2026-03-10\run_at_13-44-05\TC4\AddProductToAdminTest_0-1009\Browser_error_13-45-30-394.log'

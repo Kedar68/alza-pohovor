@@ -1,0 +1,8 @@
+[2026-03-08 20:26:14.712] [INF] ####################################################################################################
+[2026-03-08 20:26:14.714] [INF] EXECUTE TEST "UI.Template.Tests.ExampleTest.HomePageTest"
+[2026-03-08 20:26:14.734] [INF] Test Properties: {
+  LevelOfParallelism: 1
+  ParallelScope: Fixtures
+}
+[2026-03-08 20:26:14.735] [INF] TEST START
+[2026-03-08 20:26:14.738] [INF] Initializing a WebDriver session

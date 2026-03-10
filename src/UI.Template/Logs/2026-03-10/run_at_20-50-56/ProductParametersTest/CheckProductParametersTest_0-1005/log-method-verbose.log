@@ -1,0 +1,88 @@
+[2026-03-10 20:51:27.675] [INF] [LogFactory.InitializeLogger] ####################################################################################################
+[2026-03-10 20:51:27.676] [INF] [BaseTest.BaseSetUp] EXECUTE TEST "UI.Template.Tests.ProductParametersTest.CheckProductParametersTest"
+[2026-03-10 20:51:27.677] [INF] [BaseTest.LogTestProperties] Test Properties: {
+  LevelOfParallelism: 1
+  ParallelScope: Fixtures
+}
+[2026-03-10 20:51:27.677] [INF] [BaseTest.BaseSetUp] TEST START
+[2026-03-10 20:51:27.678] [INF] [WebDriverFactory.InitializeWebDriver] Initializing a WebDriver session
+[2026-03-10 20:51:29.263] [VRB] [WebDriverFactory.InitializeWebDriver] New created WebDriver session is 'b48e4900207f31c5dc29ecb1d8372aef'
+[2026-03-10 20:51:29.949] [VRB] [IWebDriverExtensions.IsPageReady] IsPageReady result is 'True'
+[2026-03-10 20:51:29.956] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //li[@class='active']'.
+[2026-03-10 20:51:29.969] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:51:30.478] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //li[@class='active']'.
+[2026-03-10 20:51:30.485] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:51:30.995] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //li[@class='active']'.
+[2026-03-10 20:51:31.004] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:51:31.506] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //li[@class='active']'.
+[2026-03-10 20:51:31.515] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:51:32.030] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //li[@class='active']'.
+[2026-03-10 20:51:32.060] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:51:32.570] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //li[@class='active']'.
+[2026-03-10 20:51:32.578] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:51:33.088] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //li[@class='active']'.
+[2026-03-10 20:51:33.096] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:51:33.611] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //li[@class='active']'.
+[2026-03-10 20:51:33.624] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:51:34.127] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //li[@class='active']'.
+[2026-03-10 20:51:34.135] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:51:34.644] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //li[@class='active']'.
+[2026-03-10 20:51:34.652] [VRB] [BaseComponent.EvaluateElementStringFunction] Catching no such element exception.
+[2026-03-10 20:51:35.155] [VRB] [BaseComponent.EvaluateElementStringFunction] Trying to evaluate method '<GetText>b__40_1' on 'Simple' with locator 'By.XPath: //li[@class='active']'.
+[2026-03-10 20:51:35.157] [INF] [BaseTest.BaseTearDown] TEST END
+[2026-03-10 20:51:35.157] [INF] [BaseTest.BaseTearDown] Test Result: Failed
+[2026-03-10 20:51:35.210] [FTL] [IWebDriverExtensions.SavePageSource] Cannot download the page source.
+OpenQA.Selenium.WebDriverException: invalid session id
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.get_PageSource()
+   at UI.Template.Framework.Extensions.IWebDriverExtensions.SavePageSource(IWebDriver webDriver, String optionalFileNameSuffix) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Framework\Extensions\IWebDriverExtensions.cs:line 255
+[2026-03-10 20:51:35.212] [ERR] [IWebDriverExtensions.GetLogs] Cannot get logs for the log type 'browser'
+
+[2026-03-10 20:51:35.213] [ERR] [IWebDriverExtensions.GetLogs] Message type: error; message content: invalid session id
+[2026-03-10 20:51:35.213] [ERR] [IWebDriverExtensions.GetLogs] Message type: message; message content: invalid session id
+[2026-03-10 20:51:35.213] [ERR] [IWebDriverExtensions.GetLogs] Message type: stacktrace; message content: Symbols not available. Dumping unresolved backtrace:
+	0x7ff733a3aa55
+	0x7ff733798630
+	0x7ff73352d546
+	0x7ff733578113
+	0x7ff7335b18e2
+	0x7ff7335abb11
+	0x7ff7335aadc3
+	0x7ff7334f6505
+	0x7ff733a67810
+	0x7ff733a61afd
+	0x7ff733a82c1a
+	0x7ff7337b3345
+	0x7ff7337bb81c
+	0x7ff7334f536a
+	0x7ff733bc2b08
+	0x7fff8656e8d7
+	0x7fff876ac40c
+
+[2026-03-10 20:51:35.213] [WRN] [Utils.SaveAsFile] There is no content available and it won't be stored
+[2026-03-10 20:51:35.214] [INF] [BaseTest.CloseDriver] Trying to quit WebDriver session 'b48e4900207f31c5dc29ecb1d8372aef'
+[2026-03-10 20:51:35.225] [ERR] [BaseTest.BaseTearDown] Error Message:
+OpenQA.Selenium.WebDriverException : invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=145.0.7632.160)
+[2026-03-10 20:51:35.226] [ERR] [BaseTest.BaseTearDown] Stack Trace:
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at UI.Template.Components.BaseComponent.EvaluateElementStringFunction(Func`2 getElementCondition, Func`2 elementAction) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\BaseComponent.cs:line 774
+   at UI.Template.Components.BaseComponent.<GetText>b__40_0(IWebDriver _) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\BaseComponent.cs:line 295
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at UI.Template.Components.BaseComponent.GetText() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\BaseComponent.cs:line 294
+   at UI.Template.Components.Containers.CategoryContainer.GetCurrentCategory() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\Containers\CategoryContainer.cs:line 37
+   at UI.Template.Pages.HomePage.GetCurrentCategory() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Pages\HomePage.cs:line 78
+   at UI.Template.Tests.ProductParametersTest.<>c__DisplayClass0_0.<CheckProductParametersTest>b__0() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\ProductParametersTest.cs:line 24
+   at NUnit.Framework.Assert.Multiple(TestDelegate testDelegate)
+   at UI.Template.Tests.ProductParametersTest.CheckProductParametersTest() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\ProductParametersTest.cs:line 21
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+[2026-03-10 20:51:35.228] [INF] [LogFactory.CloseLogger] Closing the logger...
+[2026-03-10 20:51:35.228] [INF] [LogFactory.CloseLogger] ####################################################################################################

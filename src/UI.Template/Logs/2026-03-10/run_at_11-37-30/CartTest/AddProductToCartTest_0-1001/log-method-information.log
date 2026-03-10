@@ -1,0 +1,29 @@
+[2026-03-10 11:37:30.543] [INF] ####################################################################################################
+[2026-03-10 11:37:30.544] [INF] EXECUTE TEST "UI.Template.Tests.CartTest.AddProductToCartTest"
+[2026-03-10 11:37:30.557] [INF] Test Properties: {
+  LevelOfParallelism: 1
+  ParallelScope: Fixtures
+}
+[2026-03-10 11:37:30.557] [INF] TEST START
+[2026-03-10 11:37:30.558] [INF] Initializing a WebDriver session
+[2026-03-10 11:37:37.320] [INF] Waiting for the method '<IsDisplayed>b__4_0' to be true.
+[2026-03-10 11:37:37.782] [INF] Condition '<IsDisplayed>b__4_0' is fulfilled
+[2026-03-10 11:37:37.804] [INF] Waiting for the method '<GetProductCards>b__0' to be true.
+[2026-03-10 11:37:37.829] [INF] Condition '<GetProductCards>b__0' is fulfilled
+[2026-03-10 11:38:39.912] [INF] TEST END
+[2026-03-10 11:38:39.920] [INF] Test Result: Failed
+[2026-03-10 11:38:39.992] [INF] Saving page source to: '../../../Logs\2026-03-10\run_at_11-37-30\CartTest\AddProductToCartTest_0-1001\page_error_11-38-39-990.html'
+[2026-03-10 11:38:40.019] [INF] Saving 'Browser' logs to '../../../Logs\2026-03-10\run_at_11-37-30\CartTest\AddProductToCartTest_0-1001\Browser_error_11-38-39-995.log'
+[2026-03-10 11:38:40.204] [INF] Saving screenshot to: '../../../Logs\2026-03-10\run_at_11-37-30\CartTest\AddProductToCartTest_0-1001\screenshot_error_11-38-40-020.png'
+[2026-03-10 11:38:40.205] [INF] Trying to quit WebDriver session '1e24f3752eb1d6ad7420891ca70cc375'
+[2026-03-10 11:38:40.570] [ERR] Error Message:
+  The name of product in the basket is not same as in test data
+Assert.That(productName, Is.EqualTo(TestData.CardTestProduct.ProductName))
+  Expected string length 19 but was 0. Strings differ at index 0.
+  Expected: "Gaming Keyboard RGB"
+  But was:  <string.Empty>
+  -----------^
+[2026-03-10 11:38:40.571] [ERR] Stack Trace:
+   at UI.Template.Tests.CartTest.AddProductToCartTest() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\CartTest.cs:line 29
+[2026-03-10 11:38:40.577] [INF] Closing the logger...
+[2026-03-10 11:38:40.579] [INF] ####################################################################################################

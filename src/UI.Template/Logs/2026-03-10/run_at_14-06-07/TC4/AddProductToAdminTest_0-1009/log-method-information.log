@@ -1,0 +1,64 @@
+[2026-03-10 14:06:07.189] [INF] ####################################################################################################
+[2026-03-10 14:06:07.190] [INF] EXECUTE TEST "UI.Template.Tests.TC4.AddProductToAdminTest"
+[2026-03-10 14:06:07.196] [INF] Test Properties: {
+  LevelOfParallelism: 1
+  ParallelScope: Fixtures
+}
+[2026-03-10 14:06:07.196] [INF] TEST START
+[2026-03-10 14:06:07.198] [INF] Initializing a WebDriver session
+[2026-03-10 14:06:13.379] [INF] Waiting for the method '<IsDisplayed>b__4_0' to be true.
+[2026-03-10 14:06:13.484] [INF] Condition '<IsDisplayed>b__4_0' is fulfilled
+[2026-03-10 14:06:13.489] [INF] Waiting for the method '<GetProductCards>b__0' to be true.
+[2026-03-10 14:06:13.500] [INF] Condition '<GetProductCards>b__0' is fulfilled
+[2026-03-10 14:06:30.588] [INF] TEST END
+[2026-03-10 14:06:30.590] [INF] Test Result: Failed
+[2026-03-10 14:06:30.592] [FTL] Cannot download the page source.
+OpenQA.Selenium.WebDriverException: invalid session id
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.get_PageSource()
+   at UI.Template.Framework.Extensions.IWebDriverExtensions.SavePageSource(IWebDriver webDriver, String optionalFileNameSuffix) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Framework\Extensions\IWebDriverExtensions.cs:line 255
+[2026-03-10 14:06:30.597] [ERR] Cannot get logs for the log type 'browser'
+
+[2026-03-10 14:06:30.597] [ERR] Message type: error; message content: invalid session id
+[2026-03-10 14:06:30.597] [ERR] Message type: message; message content: invalid session id
+[2026-03-10 14:06:30.597] [ERR] Message type: stacktrace; message content: Symbols not available. Dumping unresolved backtrace:
+	0x7ff695deaa55
+	0x7ff695b48630
+	0x7ff6958dd546
+	0x7ff695928113
+	0x7ff6959618e2
+	0x7ff69595bb11
+	0x7ff69595adc3
+	0x7ff6958a6505
+	0x7ff695e17810
+	0x7ff695e11afd
+	0x7ff695e32c1a
+	0x7ff695b63345
+	0x7ff695b6b81c
+	0x7ff6958a536a
+	0x7ff695f72b08
+	0x7ff9811de8d7
+	0x7ff982a8c40c
+
+[2026-03-10 14:06:30.598] [WRN] There is no content available and it won't be stored
+[2026-03-10 14:06:30.600] [INF] Trying to quit WebDriver session 'bb8b0150f1f154b8fadb1923c293a6ec'
+[2026-03-10 14:06:30.611] [ERR] Error Message:
+OpenQA.Selenium.WebDriverException : invalid session id
+[2026-03-10 14:06:30.612] [ERR] Stack Trace:
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.get_Url()
+   at UI.Template.Globals.WaitForReady() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Globals.cs:line 159
+   at UI.Template.Framework.Extensions.IWebDriverExtensions.WaitForReady(IWebDriver _) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Framework\Extensions\IWebDriverExtensions.cs:line 58
+   at UI.Template.Components.BaseComponent.WaitForReady() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\BaseComponent.cs:line 645
+   at UI.Template.Components.Basic.Button.Click() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\Basic\Button.cs:line 23
+   at UI.Template.Components.ProductCard.AddToBasket() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\ProductCard.cs:line 25
+   at UI.Template.Pages.HomePage.AddToBasketFirstProductFromCategory(String category) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Pages\HomePage.cs:line 28
+   at UI.Template.Tests.TC4.AddProductToAdminTest() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\TC4.cs:line 16
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+[2026-03-10 14:06:30.615] [INF] Closing the logger...
+[2026-03-10 14:06:30.615] [INF] ####################################################################################################

@@ -1,0 +1,38 @@
+[2026-03-10 20:51:06.138] [INF] ####################################################################################################
+[2026-03-10 20:51:06.140] [INF] EXECUTE TEST "UI.Template.Tests.ExampleTest.HomePageTest"
+[2026-03-10 20:51:06.141] [INF] Test Properties: {
+  LevelOfParallelism: 1
+  ParallelScope: Fixtures
+}
+[2026-03-10 20:51:06.143] [INF] TEST START
+[2026-03-10 20:51:06.145] [INF] Initializing a WebDriver session
+[2026-03-10 20:51:27.165] [INF] TEST END
+[2026-03-10 20:51:27.172] [INF] Test Result: Failed
+[2026-03-10 20:51:27.187] [FTL] Cannot download the page source.
+OpenQA.Selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.160)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.get_PageSource()
+   at UI.Template.Framework.Extensions.IWebDriverExtensions.SavePageSource(IWebDriver webDriver, String optionalFileNameSuffix) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Framework\Extensions\IWebDriverExtensions.cs:line 255
+[2026-03-10 20:51:27.201] [INF] Saving 'Browser' logs to '../../../Logs\2026-03-10\run_at_20-50-56\ExampleTest\HomePageTest_0-1003\Browser_error_20-51-27-192.log'
+[2026-03-10 20:51:27.217] [INF] Trying to quit WebDriver session '542c04b449cbcbf75607026ec9f4f2d0'
+[2026-03-10 20:51:27.623] [ERR] Error Message:
+System.NullReferenceException : Object reference not set to an instance of an object.
+[2026-03-10 20:51:27.624] [ERR] Stack Trace:
+   at UI.Template.Components.BaseComponent.<>c.<IsClicked>b__60_0(IWebElement element) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\BaseComponent.cs:line 490
+   at UI.Template.Components.BaseComponent.EvaluateElementBoolFunction(Func`2 getElementCondition, Action`1 elementAction, Boolean noElement, Boolean webDriverExc) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\BaseComponent.cs:line 670
+   at UI.Template.Components.BaseComponent.IsClicked() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\BaseComponent.cs:line 490
+   at UI.Template.Components.BaseComponent.<Click>b__59_0(IWebDriver _) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\BaseComponent.cs:line 483
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at UI.Template.Components.BaseComponent.Click() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\BaseComponent.cs:line 482
+   at UI.Template.Components.Containers.CategoryContainer.SelectCategory(String categoryName) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\Containers\CategoryContainer.cs:line 29
+   at UI.Template.Pages.HomePage.AddToBasketFirstProductFromCategory(String category) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Pages\HomePage.cs:line 21
+   at UI.Template.Tests.ExampleTest.HomePageTest() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\ExampleTest.cs:line 13
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+[2026-03-10 20:51:27.628] [INF] Closing the logger...
+[2026-03-10 20:51:27.629] [INF] ####################################################################################################

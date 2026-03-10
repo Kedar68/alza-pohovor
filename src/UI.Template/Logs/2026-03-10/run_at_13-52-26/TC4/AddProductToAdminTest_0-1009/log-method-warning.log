@@ -1,0 +1,7 @@
+[2026-03-10 13:52:49.647] [ERR] Error Message:
+  Product was not added to the basket.
+Assert.That(addedToBasket, Is.True)
+  Expected: True
+  But was:  False
+[2026-03-10 13:52:49.648] [ERR] Stack Trace:
+   at UI.Template.Tests.TC4.AddProductToAdminTest() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\TC4.cs:line 17

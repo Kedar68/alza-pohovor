@@ -1,0 +1,10 @@
+[2026-03-10T18:21:17Z] [Info] https://eshop-demo-766125429055.europe-central2.run.app/main-SBPACWPT.js 6:255804 "Víš, že Alza byla založena v roce 1994?"
+[2026-03-10T18:21:22Z] [Info] https://eshop-demo-766125429055.europe-central2.run.app/main-SBPACWPT.js 100:32635 "toggleCart called in ProductDetailComponent, showCart before:" false
+[2026-03-10T18:21:22Z] [Info] https://eshop-demo-766125429055.europe-central2.run.app/main-SBPACWPT.js 100:32755 "showCart after:" true
+[2026-03-10T18:40:34Z] [Info] https://eshop-demo-766125429055.europe-central2.run.app/main-SBPACWPT.js 6:255804 "Víš, že Alza byla založena v roce 1994?"
+[2026-03-10T18:40:34Z] [Info] https://eshop-demo-766125429055.europe-central2.run.app/main-SBPACWPT.js 6:264656 "Reduced stock for product 1: 24 remaining"
+[2026-03-10T18:40:34Z] [Info] https://eshop-demo-766125429055.europe-central2.run.app/main-SBPACWPT.js 6:255804 "Víš, že Alza byla založena v roce 1994?"
+[2026-03-10T18:40:34Z] [Info] https://eshop-demo-766125429055.europe-central2.run.app/main-SBPACWPT.js 6:264656 "Reduced stock for product 1: 23 remaining"
+[2026-03-10T18:40:34Z] [Info] https://eshop-demo-766125429055.europe-central2.run.app/main-SBPACWPT.js 6:255804 "Víš, že Alza byla založena v roce 1994?"
+[2026-03-10T18:40:34Z] [Info] https://eshop-demo-766125429055.europe-central2.run.app/main-SBPACWPT.js 100:32635 "toggleCart called in ProductDetailComponent, showCart before:" false
+[2026-03-10T18:40:34Z] [Info] https://eshop-demo-766125429055.europe-central2.run.app/main-SBPACWPT.js 100:32755 "showCart after:" true

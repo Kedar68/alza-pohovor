@@ -1,0 +1,7 @@
+[2026-03-10 14:19:19.838] [ERR] Error Message:
+OpenQA.Selenium.NoSuchElementException : Product "" not found in category "Cameras".; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+[2026-03-10 14:19:19.839] [ERR] Stack Trace:
+   at UI.Template.Pages.HomePage.OpenProductByNameFromCategory(String category, String product) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Pages\HomePage.cs:line 46
+   at UI.Template.Tests.TC4.AddProductToAdminTest() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\TC4.cs:line 21
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)

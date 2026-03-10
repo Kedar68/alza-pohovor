@@ -1,0 +1,13 @@
+[2026-03-10 19:08:28.958] [ERR] Error Message:
+OpenQA.Selenium.WebDriverTimeoutException : Timed out after 60 seconds: 'TextInput' with locator 'By.XPath: //div[@class='checkout-form']//*[@id='phone-number']' couldn't cleared during the timeout.
+[2026-03-10 19:08:28.959] [ERR] Stack Trace:
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at UI.Template.Components.Basic.TextInput.Clear() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\Basic\TextInput.cs:line 41
+   at UI.Template.Components.Containers.CheckoutFormContainer.SetPhone(String value) in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Components\Containers\CheckoutFormContainer.cs:line 62
+   at UI.Template.Tests.TC4.<>c__DisplayClass0_0.<AddProductToAdminTest>b__0() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\TC4.cs:line 54
+   at NUnit.Framework.Assert.Multiple(TestDelegate testDelegate)
+   at UI.Template.Tests.TC4.AddProductToAdminTest() in C:\Users\honza\Downloads\TestTemplate\src\UI.Template\Tests\TC4.cs:line 46
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
